@@ -1,0 +1,2635 @@
+{
+  "projectId": "TOOLVERSE",
+  "version": "1.0.0",
+  "lastUpdated": "2026-09-19T14:24:37.391Z",
+  "tools": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "slug": "chatgpt",
+      "nameAr": "شات جي بي تي",
+      "nameEn": "ChatGPT",
+      "descriptionAr": "أشهر روبوت محادثة ونموذج ذكاء اصطناعي من OpenAI للإجابة على الأسئلة والكتابة والتحليل البرمجي.",
+      "descriptionEn": "Industry-leading conversational AI model by OpenAI for reasoning, creative writing, and coding assistance.",
+      "longDescriptionAr": "يُعد ChatGPT المنصة الرائدة عالميًا في الذكاء الاصطناعي التوليدي من تطوير OpenAI. يتيح لك إجراء محادثات ذكية، وصياغة الأفكار والمقالات، وحل المشكلات البرمجية المعقدة، وتحليل الملفات والبيانات بسرعة ودقة غير مسبوقة.",
+      "longDescriptionEn": "ChatGPT is OpenAI’s flagship conversational generative AI platform. It enables natural dialogue, complex reasoning, content generation, code debugging, and document analysis with state-of-the-art accuracy.",
+      "category": "ai-chat",
+      "subcategory": "Conversational LLM",
+      "pricing": "Freemium",
+      "officialUrl": "https://chatgpt.com",
+      "icon": "MessageSquare",
+      "brandColor": "#10A37F",
+      "features": {
+        "ar": [
+          "محرك GPT-4o المتقدم",
+          "تحليل المستندات والبيانات",
+          "توليد الصور عبر DALL-E",
+          "تصفح الإنترنت المباشر"
+        ],
+        "en": [
+          "Advanced GPT-4o model",
+          "Document and data analysis",
+          "DALL-E image generation",
+          "Real-time web browsing"
+        ]
+      },
+      "keywords": [
+        "openai",
+        "gpt-4",
+        "محادثة",
+        "كتابة",
+        "ذكاء اصطناعي",
+        "chat",
+        "reasoning"
+      ],
+      "tags": [
+        "ai-assistant",
+        "chat",
+        "llm",
+        "writing"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2023-01-10T00:00:00Z",
+      "updatedAt": "2025-02-01T00:00:00Z",
+      "popularityScore": 99
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "slug": "claude",
+      "nameAr": "كلود",
+      "nameEn": "Claude",
+      "descriptionAr": "مساعد ذكاء اصطناعي من Anthropic يتميز بالفهم العميق للنصوص الطويلة والدقة العالية في التحليل.",
+      "descriptionEn": "Next-generation AI assistant by Anthropic renowned for nuanced reasoning, coding, and large document comprehension.",
+      "longDescriptionAr": "تطبيق Claude المطور من قِبل شركة Anthropic يتمتع بنافذة سياق ضخمة تتيح له قراءة كتب وأكواد برمجية كاملة وفهمها وتحليلها بحيادية ودقة عالية وأسلوب لغوي طبيعي للغاية.",
+      "longDescriptionEn": "Claude by Anthropic features an expansive context window capable of ingesting whole books, codebases, and technical docs with exceptional reasoning and natural conversational prose.",
+      "category": "ai-chat",
+      "subcategory": "Conversational LLM",
+      "pricing": "Freemium",
+      "officialUrl": "https://claude.ai",
+      "icon": "Bot",
+      "brandColor": "#D97706",
+      "features": {
+        "ar": [
+          "نافذة سياق ضخمة تتجاوز 200 ألف رمز",
+          "كتابة برمجية فائقة الدقة",
+          "ميزة Artifacts لمعاينة الأكواد",
+          "تحليل الملفات المعقدة"
+        ],
+        "en": [
+          "200K+ token context window",
+          "State-of-the-art coding abilities",
+          "Artifacts live code previews",
+          "Deep document comprehension"
+        ]
+      },
+      "keywords": [
+        "anthropic",
+        "sonnet",
+        "تحليل نصوص",
+        "أكواد",
+        "محادثة",
+        "claude 3.5"
+      ],
+      "tags": [
+        "ai-assistant",
+        "coding",
+        "research",
+        "analysis"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2023-03-14T00:00:00Z",
+      "updatedAt": "2025-02-10T00:00:00Z",
+      "popularityScore": 97
+    },
+    {
+      "id": "google-gemini",
+      "name": "Google Gemini",
+      "slug": "google-gemini",
+      "nameAr": "جوجل جيميني",
+      "nameEn": "Google Gemini",
+      "descriptionAr": "نموذج الذكاء الاصطناعي متعدد الوسائط من Google، يتكامل بعمق مع خدمات Google والبحث المباشر.",
+      "descriptionEn": "Google’s multimodal flagship AI assistant integrated with Google Workspace and live web knowledge.",
+      "longDescriptionAr": "يقدم Google Gemini قدرات فائقة في معالجة النصوص والصور ومقاطع الفيديو والملفات، مع اتصال فوري بمعلومات محرك بحث Google وتطبيقات مثل Gmail وDrive وYouTube.",
+      "longDescriptionEn": "Gemini delivers native multimodal capabilities across text, vision, audio, and code, seamlessly connecting to real-time Google Search and Workspace services.",
+      "category": "ai-chat",
+      "subcategory": "Multimodal AI",
+      "pricing": "Freemium",
+      "officialUrl": "https://gemini.google.com",
+      "icon": "Sparkles",
+      "brandColor": "#3B82F6",
+      "features": {
+        "ar": [
+          "معالجة الوسائط المتعددة (صور وفيديو ونصوص)",
+          "اتصال مباشر بمحرك بحث Google",
+          "تكامل مع Google Drive وDocs",
+          "نافذة سياق تصل إلى مليون رمز"
+        ],
+        "en": [
+          "Native multimodal understanding",
+          "Live Google Search grounding",
+          "Workspace integration",
+          "Up to 1M+ token context"
+        ]
+      },
+      "keywords": [
+        "google",
+        "gemini",
+        "بحث",
+        "ملفات",
+        "مساعد ذكي",
+        "multimodal"
+      ],
+      "tags": [
+        "multimodal",
+        "google-workspace",
+        "search",
+        "assistant"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2023-03-21T00:00:00Z",
+      "updatedAt": "2025-02-15T00:00:00Z",
+      "popularityScore": 96
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity AI",
+      "slug": "perplexity",
+      "nameAr": "بيربلكسيتي",
+      "nameEn": "Perplexity AI",
+      "descriptionAr": "محرك إجابات بحثي يجمع بين قوة نماذج الذكاء الاصطناعي ونتائج الويب الموثقة بالمصادر المباشرة.",
+      "descriptionEn": "AI-powered conversational search engine delivering concise, cited answers from across the live web.",
+      "longDescriptionAr": "يُعيد Perplexity ابتكار تجربة البحث على الإنترنت؛ إذ يقدم إجابات مباشرة ودقيقة مع إدراج المصادر والمراجع وروابط التحقق لكل جملة ومعلومة يقدمها.",
+      "longDescriptionEn": "Perplexity revolutionizes web discovery by providing direct, synthesized answers backed by clickable citations and follow-up query suggestions.",
+      "category": "ai-chat",
+      "subcategory": "AI Search Engine",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.perplexity.ai",
+      "icon": "Compass",
+      "brandColor": "#14B8A6",
+      "features": {
+        "ar": [
+          "إجابات مدعومة بمصادر ومراجع موثوقة",
+          "وضع Pro Search المتعمق",
+          "تنظيم الأبحاث في مجموعات Pages",
+          "اختيار نماذج الذكاء الاصطناعي المختلفة"
+        ],
+        "en": [
+          "Cited real-time answers",
+          "Deep multi-step Pro Search",
+          "Organized Collections & Pages",
+          "Multiple model switching"
+        ]
+      },
+      "keywords": [
+        "بحث",
+        "مصادر",
+        "أبحاث",
+        "محرك بحث ذكي",
+        "search",
+        "citations"
+      ],
+      "tags": [
+        "search",
+        "research",
+        "citations",
+        "academic"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2022-12-07T00:00:00Z",
+      "updatedAt": "2025-01-20T00:00:00Z",
+      "popularityScore": 94
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "slug": "microsoft-copilot",
+      "nameAr": "مايكروسوفت كوبايلوت",
+      "nameEn": "Microsoft Copilot",
+      "descriptionAr": "مساعد الذكاء الاصطناعي من Microsoft المدمج في نظام ويندوز وحزمة برامج Office ومحرك Edge.",
+      "descriptionEn": "Microsoft’s AI companion embedded into Windows, Microsoft 365 apps, and Bing web search.",
+      "longDescriptionAr": "يوفر Copilot للمستخدمين تجربة ذكاء اصطناعي شاملة لزيادة الإنتاجية في بيئة العمل، وصياغة المستندات، وتلخيص صفحات الويب، وتوليد الأفكار الإبداعية.",
+      "longDescriptionEn": "Microsoft Copilot assists professionals and everyday users across daily workflows, document drafting in Office, web summarization, and task automation.",
+      "category": "ai-chat",
+      "subcategory": "Productivity AI Assistant",
+      "pricing": "Freemium",
+      "officialUrl": "https://copilot.microsoft.com",
+      "icon": "Cpu",
+      "brandColor": "#0EA5E9",
+      "features": {
+        "ar": [
+          "تكامل مع نظام Windows ومتصفح Edge",
+          "توليد الصور وتعديلها",
+          "ربط تلقائي مع حزمة Office 365",
+          "وضع البحث التجاري الآمن"
+        ],
+        "en": [
+          "Windows and Edge native integration",
+          "Image generation tools",
+          "Office 365 productivity suite",
+          "Enterprise-grade security"
+        ]
+      },
+      "keywords": [
+        "microsoft",
+        "office",
+        "bing",
+        "windows",
+        "إنتاجية"
+      ],
+      "tags": [
+        "microsoft-365",
+        "windows",
+        "enterprise",
+        "assistant"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2023-02-07T00:00:00Z",
+      "updatedAt": "2025-01-10T00:00:00Z",
+      "popularityScore": 89
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "slug": "deepseek",
+      "nameAr": "ديب سيك",
+      "nameEn": "DeepSeek",
+      "descriptionAr": "نموذج ذكاء اصطناعي مفتوح ومتقدم يتميز بقدرات رياضية وبرمجية استثنائية وبكفاءة تشغيلية رائدة.",
+      "descriptionEn": "Cutting-edge AI model with open weights, excelling in math, deep reasoning, and specialized code synthesis.",
+      "longDescriptionAr": "أحدث نموذج DeepSeek ثورة في مجال الذكاء الاصطناعي بنماذجه المتقدمة في التفكير العميق (Reasoning) والبرمجة وحل المسائل العلمية المعقدة بأداء ينافس أفضل النماذج المغلقة.",
+      "longDescriptionEn": "DeepSeek has gained widespread international recognition for its state-of-the-art open reasoning models, exceptional algorithmic problem solving, and accessible web interface.",
+      "category": "ai-chat",
+      "subcategory": "Open Reasoning LLM",
+      "pricing": "Free",
+      "officialUrl": "https://www.deepseek.com",
+      "icon": "Brain",
+      "brandColor": "#4F46E5",
+      "features": {
+        "ar": [
+          "تفكير منطقي متسلسل ومعلل",
+          "أداء استثنائي في البرمجة والرياضيات",
+          "استخدام مجاني مفتوح",
+          "استجابة سريعة وسلسة"
+        ],
+        "en": [
+          "Chain-of-thought deep reasoning",
+          "Outstanding code and math benchmarks",
+          "Accessible free tier",
+          "Fast generation speed"
+        ]
+      },
+      "keywords": [
+        "deepseek",
+        "تفكير عميق",
+        "برمجة",
+        "رياضيات",
+        "reasoning",
+        "r1"
+      ],
+      "tags": [
+        "open-source",
+        "reasoning",
+        "math",
+        "coding",
+        "free"
+      ],
+      "featured": true,
+      "isNew": true,
+      "isActive": true,
+      "createdAt": "2024-05-10T00:00:00Z",
+      "updatedAt": "2025-02-18T00:00:00Z",
+      "popularityScore": 98
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "slug": "grok",
+      "nameAr": "جروك",
+      "nameEn": "Grok",
+      "descriptionAr": "مساعد ذكاء اصطناعي تفاعلي من xAI متصل بشكل لحظي ببيانات شبكة X (تويتر سابقاً).",
+      "descriptionEn": "Real-time conversational AI by xAI with direct insight into breaking trends and discussions on X.",
+      "longDescriptionAr": "يتميز Grok بقدرته على فهم الأخبار والأحداث العاجلة فور وقوعها بالاستناد إلى التحديثات الحية على منصة X، مع أسلوب ذكي ومباشر وتوليد سريع للصور.",
+      "longDescriptionEn": "Grok by xAI processes breaking events as they happen via real-time access to public trends on X, paired with image generation and witty dialogue.",
+      "category": "ai-chat",
+      "subcategory": "Real-time Trends AI",
+      "pricing": "Freemium",
+      "officialUrl": "https://x.ai",
+      "icon": "Zap",
+      "brandColor": "#E11D48",
+      "features": {
+        "ar": [
+          "تحديثات حية للأحداث العالمية",
+          "توليد الصور بجودة عالية",
+          "فهم الفكاهة والأسلوب المباشر",
+          "ميزات تحليل متقدمة لمستخدمي X"
+        ],
+        "en": [
+          "Real-time global news access",
+          "High-speed image generation",
+          "Unfiltered witty perspective",
+          "Deep integration with X platform"
+        ]
+      },
+      "keywords": [
+        "grok",
+        "xai",
+        "أخبار",
+        "تويتر",
+        "تحليل فوري",
+        "x"
+      ],
+      "tags": [
+        "real-time",
+        "news",
+        "xai",
+        "trends"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2023-11-04T00:00:00Z",
+      "updatedAt": "2025-01-25T00:00:00Z",
+      "popularityScore": 88
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "nameAr": "نوتبوك إل إم",
+      "nameEn": "NotebookLM",
+      "descriptionAr": "دفتر ملاحظات وأبحاث ذكي من Google يلخص مصادرك وينشئ نقاشات صوتية بودكاست تلقائية.",
+      "descriptionEn": "Google’s personalized AI research notebook that grounds responses in your own notes and generates audio podcasts.",
+      "longDescriptionAr": "أداة بحثية ثورية تعتمد فقط على المصادر التي ترفعها (PDFs، مستندات، روابط). تقوم بتلخيص المحتوى والإجابة عنه بدقة متناهية، مع إمكانية تحويل المحتوى إلى حلقة بودكاست صوتية تفاعلية.",
+      "longDescriptionEn": "NotebookLM grounds generative AI exclusively within your uploaded documents, generating source-cited study guides, summaries, and synthetic conversational audio discussions.",
+      "category": "ai-chat",
+      "subcategory": "Research & Study Notebook",
+      "pricing": "Free",
+      "officialUrl": "https://notebooklm.google.com",
+      "icon": "BookOpen",
+      "brandColor": "#10B981",
+      "features": {
+        "ar": [
+          "توليد بودكاست صوتي ذكي للمصادر",
+          "إجابات مؤكدة بدون هلوسة",
+          "دعم ملفات PDF والمواقع والمستندات",
+          "مجاني بالكامل بدون اشتراك"
+        ],
+        "en": [
+          "Conversational Audio Overviews",
+          "Zero hallucination strict grounding",
+          "PDF and web source support",
+          "Completely free to use"
+        ]
+      },
+      "keywords": [
+        "google",
+        "بودكاست",
+        "أبحاث",
+        "ملاحظات",
+        "تلخيص",
+        "audio overview"
+      ],
+      "tags": [
+        "research",
+        "podcast",
+        "notes",
+        "study",
+        "free"
+      ],
+      "featured": true,
+      "isNew": true,
+      "isActive": true,
+      "createdAt": "2023-07-12T00:00:00Z",
+      "updatedAt": "2025-02-12T00:00:00Z",
+      "popularityScore": 95
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "slug": "midjourney",
+      "nameAr": "ميدجورني",
+      "nameEn": "Midjourney",
+      "descriptionAr": "المنصة الأقوى عالمياً في توليد الصور الفنية والواقعية فائقة الجمال من الأوامر النصية.",
+      "descriptionEn": "World-renowned generative AI art engine producing hyper-realistic imagery and breathtaking aesthetics.",
+      "longDescriptionAr": "يُعتبر Midjourney المعيار الذهبي في الإبداع البصري بالذكاء الاصطناعي؛ حيث ينتج صورًا ذات لمسة سينمائية وألوان متوازنة وتفاصيل فائقة الدقة تحاكي أعمال كبار الفنانين والمصورين.",
+      "longDescriptionEn": "Midjourney delivers unmatched aesthetic sophistication, lighting realism, and compositional depth from natural language text prompts via its Discord and web interfaces.",
+      "category": "images-design",
+      "subcategory": "Generative Art",
+      "pricing": "Paid",
+      "officialUrl": "https://www.midjourney.com",
+      "icon": "Palette",
+      "brandColor": "#6366F1",
+      "features": {
+        "ar": [
+          "إتقان الإضاءة والواقعية الفوتوغرافية",
+          "أدوات التكبير والتعديل الجزئي (Inpainting)",
+          "واجهة ويب حديثة وسريعة",
+          "أنماط فنية وتخصيص دقيق"
+        ],
+        "en": [
+          "Photorealistic lighting precision",
+          "Inpainting and zoom out tools",
+          "Modern web creation interface",
+          "Comprehensive style tuning"
+        ]
+      },
+      "keywords": [
+        "صور",
+        "فن",
+        "تصميم",
+        "سينمائي",
+        "توليد صور",
+        "art",
+        "photorealistic"
+      ],
+      "tags": [
+        "generative-art",
+        "photorealism",
+        "cinematic",
+        "creative"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2022-07-12T00:00:00Z",
+      "updatedAt": "2025-01-30T00:00:00Z",
+      "popularityScore": 98
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "slug": "ideogram",
+      "nameAr": "أيديوجرام",
+      "nameEn": "Ideogram",
+      "descriptionAr": "أداة متطورة لتوليد الصور والشعارات مع دقة استثنائية في كتابة النصوص والخطوط داخل الصور.",
+      "descriptionEn": "Next-gen image generator famous for rendering legible, typography-accurate text inside AI images.",
+      "longDescriptionAr": "تفوقت Ideogram في حل إحدى أكبر معضلات الذكاء الاصطناعي: رسم الحروف والكلمات الإنجليزية بدقة وجمالية، مما يجعلها مثالية لتصميم الملصقات، الشعارات، والقمصان.",
+      "longDescriptionEn": "Ideogram excels in rendering clean, coherent typography and complex graphical lettering within generated images, ideal for graphic designers, apparel prints, and brand assets.",
+      "category": "images-design",
+      "subcategory": "Typography & Graphic Generation",
+      "pricing": "Freemium",
+      "officialUrl": "https://ideogram.ai",
+      "icon": "Type",
+      "brandColor": "#EC4899",
+      "features": {
+        "ar": [
+          "كتابة نصوص واضحة داخل الصور",
+          "توليد شعارات وتصاميم تايبوجرافي",
+          "ميزة Magic Prompt لتحسين الأوامر",
+          "تصدير بجودات وتنسيقات متعددة"
+        ],
+        "en": [
+          "Crisp text rendering in images",
+          "Logo and graphic design workflows",
+          "Magic Prompt auto-expansion",
+          "Versatile aspect ratios"
+        ]
+      },
+      "keywords": [
+        "خطوط",
+        "شعارات",
+        "تصميم",
+        "تيشيرتات",
+        "typography",
+        "logos"
+      ],
+      "tags": [
+        "typography",
+        "logos",
+        "graphics",
+        "posters"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2023-08-22T00:00:00Z",
+      "updatedAt": "2025-02-05T00:00:00Z",
+      "popularityScore": 91
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "slug": "adobe-firefly",
+      "nameAr": "أدوبي فايرفلاي",
+      "nameEn": "Adobe Firefly",
+      "descriptionAr": "عائلة نماذج الذكاء الاصطناعي التوليدي من Adobe المصممة للاستخدام التجاري الآمن والمحترف.",
+      "descriptionEn": "Adobe’s commercially safe generative AI engine powering Photoshop, Illustrator, and web creation.",
+      "longDescriptionAr": "تتميز Adobe Firefly بتدريب نماذجها على مكتبة Adobe Stock لضمان الأمان القانوني والتجاري، وتتكامل بسلاسة مع Photoshop لمزايا الملء التوليدي وإضافة وحذف العناصر.",
+      "longDescriptionEn": "Trained on Adobe Stock assets to guarantee commercial safety, Firefly powers Generative Fill, Text Effects, and vector recoloring across Adobe Creative Cloud.",
+      "category": "images-design",
+      "subcategory": "Commercial Generative Studio",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.adobe.com/products/firefly.html",
+      "icon": "Flame",
+      "brandColor": "#DC2626",
+      "features": {
+        "ar": [
+          "آمنة للاستخدام التجاري والتسويقي",
+          "ملء توليدي وحذف العناصر الذكي",
+          "تأثيرات نصوص فريدة وفيكتور",
+          "تكامل مباشر مع برامج Adobe"
+        ],
+        "en": [
+          "Commercially safe generated content",
+          "Generative Fill & object removal",
+          "Text effects and vector creation",
+          "Creative Cloud ecosystem"
+        ]
+      },
+      "keywords": [
+        "adobe",
+        "photoshop",
+        "ملء توليدي",
+        "تصميم احترافي",
+        "creative cloud"
+      ],
+      "tags": [
+        "commercial-safe",
+        "photoshop",
+        "generative-fill",
+        "adobe"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2023-03-21T00:00:00Z",
+      "updatedAt": "2025-01-15T00:00:00Z",
+      "popularityScore": 92
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "slug": "canva",
+      "nameAr": "كانفا",
+      "nameEn": "Canva",
+      "descriptionAr": "منصة التصميم الأكثر شعبية مع ميزات استوديو الذكاء الاصطناعي السحرية للشركات وصناع المحتوى.",
+      "descriptionEn": "All-in-one graphic design suite equipped with Magic Studio AI tools for instant social media and marketing assets.",
+      "longDescriptionAr": "تجمع Canva بين آلاف القوالب الاحترافية الجاهزة وأدوات الذكاء الاصطناعي (Magic Studio) لتوليد التصاميم والمنشورات والعروض التقديمية وتعديل الصور بنقرة واحدة.",
+      "longDescriptionEn": "Canva empowers millions to design graphics, social posts, presentations, and print media effortlessly, bolstered by AI Magic Eraser, Magic Switch, and text-to-design generation.",
+      "category": "images-design",
+      "subcategory": "All-in-One Graphic Suite",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.canva.com",
+      "icon": "Layout",
+      "brandColor": "#06B6D4",
+      "features": {
+        "ar": [
+          "محرر سحابي سهل وسريع السحب والإفلات",
+          "أدوات Magic Studio الذكية",
+          "مكتبة ضخمة من القوالب والعناصر",
+          "أدوات التعاون الجماعي في الوقت الحقيقي"
+        ],
+        "en": [
+          "Intuitive drag-and-drop canvas",
+          "Magic Studio AI capabilities",
+          "Vast template and stock library",
+          "Real-time team collaboration"
+        ]
+      },
+      "keywords": [
+        "كانفا",
+        "تصميم",
+        "سوشيال ميديا",
+        "قوالب",
+        "عروض",
+        "social media"
+      ],
+      "tags": [
+        "templates",
+        "social-media",
+        "presentations",
+        "design"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2013-01-01T00:00:00Z",
+      "updatedAt": "2025-02-01T00:00:00Z",
+      "popularityScore": 96
+    },
+    {
+      "id": "recraft",
+      "name": "Recraft",
+      "slug": "recraft",
+      "nameAr": "ريكرافت",
+      "nameEn": "Recraft",
+      "descriptionAr": "أداة مخصصة للمصممين لتوليد رسومات الفيكتور (SVG) والأيقونات والرسوم التوضيحية ثلاثية الأبعاد.",
+      "descriptionEn": "AI design platform purpose-built for creating editable vector art (SVG), 3D graphics, and icon sets in unified styles.",
+      "longDescriptionAr": "تعتبر Recraft الخيار الأول لمصممي واجهات المستخدم والرسامين الرقميين؛ حيث تولد رسومات متجهة قابلة للتحرير بالكامل كملفات SVG، وتضمن الحفاظ على نسق بصري متسق لكافة الأصول.",
+      "longDescriptionEn": "Recraft enables graphic designers to generate professional vectors, 3D brand assets, illustrations, and iconography with strict brand palette consistency and clean SVG export.",
+      "category": "images-design",
+      "subcategory": "Vector & 3D Art Generator",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.recraft.ai",
+      "icon": "Feather",
+      "brandColor": "#8B5CF6",
+      "features": {
+        "ar": [
+          "تصدير رسومات فيكتور SVG نقية وقابلة للتعديل",
+          "الحفاظ على لوحة الألوان والأسلوب الموحد",
+          "توليد أيقونات ورسومات ثلاثية الأبعاد",
+          "لوحة عمل لا نهائية للمشاريع"
+        ],
+        "en": [
+          "Clean editable SVG vector export",
+          "Strict brand style consistency",
+          "3D graphic and icon generation",
+          "Infinite design canvas"
+        ]
+      },
+      "keywords": [
+        "فيكتور",
+        "svg",
+        "أيقونات",
+        "ui",
+        "رسوم متجهة",
+        "vector"
+      ],
+      "tags": [
+        "svg",
+        "vector",
+        "icons",
+        "illustrations",
+        "branding"
+      ],
+      "featured": false,
+      "isNew": true,
+      "isActive": true,
+      "createdAt": "2023-09-15T00:00:00Z",
+      "updatedAt": "2025-02-14T00:00:00Z",
+      "popularityScore": 90
+    },
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo AI",
+      "slug": "leonardo-ai",
+      "nameAr": "ليوناردو للذكاء الاصطناعي",
+      "nameEn": "Leonardo AI",
+      "descriptionAr": "منصة متكاملة لتوليد الأصول الإبداعية وصور الألعاب بدقة فائقة مع أدوات تحكم تفصيلية.",
+      "descriptionEn": "Comprehensive generative platform with fine-tuned models for game assets, character art, and motion graphics.",
+      "longDescriptionAr": "توفر Leonardo AI مجموعة غنية من النماذج المدربة مسبقًا لإنتاج فنون الألعاب، والشخصيات الكرتونية، والتصاميم الخيالية، مع ميزات متقدمة مثل الرسم اللحظي والتوليد المباشر.",
+      "longDescriptionEn": "Leonardo.ai gives creators granular control over asset generation through custom fine-tuned models, real-time canvas generation, and 3D texture mapping.",
+      "category": "images-design",
+      "subcategory": "Game Assets & Concept Art",
+      "pricing": "Freemium",
+      "officialUrl": "https://leonardo.ai",
+      "icon": "Wand2",
+      "brandColor": "#F59E0B",
+      "features": {
+        "ar": [
+          "رسم لحظي Realtime Canvas",
+          "نماذج مخصصة للألعاب والشخصيات",
+          "أدوات تحكم في العمق والوضعيات (ControlNet)",
+          "توليد حركة للصور وتحويلها لمقاطع"
+        ],
+        "en": [
+          "Realtime Canvas instant drawing",
+          "Game-ready character models",
+          "ControlNet pose and depth guides",
+          "Motion generation from stills"
+        ]
+      },
+      "keywords": [
+        "ألعاب",
+        "شخصيات",
+        "رسم فوري",
+        "تصاميم فنية",
+        "game assets"
+      ],
+      "tags": [
+        "game-dev",
+        "concept-art",
+        "realtime-canvas",
+        "3d"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2022-11-20T00:00:00Z",
+      "updatedAt": "2025-01-20T00:00:00Z",
+      "popularityScore": 89
+    },
+    {
+      "id": "remove-bg",
+      "name": "Remove.bg",
+      "slug": "remove-bg",
+      "nameAr": "ريموف بي جي",
+      "nameEn": "Remove.bg",
+      "descriptionAr": "الأداة الأسرع والأكثر دقة عالميًا لإزالة خلفيات الصور تلقائيًا في غضون ثوانٍ بنقرة واحدة.",
+      "descriptionEn": "The industry-standard utility to automatically remove image backgrounds with high precision in seconds.",
+      "longDescriptionAr": "تستخدم Remove.bg خوارزميات ذكاء اصطناعي مدربة لعزل الأشخاص والمنتجات والسيارات والحيوانات بدقة متناهية وفصل الشعر والتفاصيل الدقيقة عن أي خلفية.",
+      "longDescriptionEn": "Remove.bg leverages specialized vision AI to instantly detach subjects, hair strands, cars, and products from backdrops with zero manual masking required.",
+      "category": "images-design",
+      "subcategory": "Background Eraser Utility",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.remove.bg",
+      "icon": "Scissors",
+      "brandColor": "#059669",
+      "features": {
+        "ar": [
+          "تفريغ الصور في أقل من 5 ثوانٍ",
+          "عزل دقيق لخصلات الشعر والأطراف",
+          "إمكانية إضافة خلفيات مخصصة ملونة أو طبيعية",
+          "تطبيق ويب وتكاملات برمجية"
+        ],
+        "en": [
+          "Sub-5-second background removal",
+          "Fine strand and feather detection",
+          "Custom backdrop replacer",
+          "Web app and batch processing"
+        ]
+      },
+      "keywords": [
+        "إزالة الخلفية",
+        "تفريغ الصور",
+        "png شفاف",
+        "background removal"
+      ],
+      "tags": [
+        "background-removal",
+        "transparent-png",
+        "photo-editing",
+        "quick-tool"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2018-12-01T00:00:00Z",
+      "updatedAt": "2024-12-10T00:00:00Z",
+      "popularityScore": 93
+    },
+    {
+      "id": "photopea",
+      "name": "Photopea",
+      "slug": "photopea",
+      "nameAr": "فوتوبيا",
+      "nameEn": "Photopea",
+      "descriptionAr": "محرر صور متقدم ومجاني يعمل مباشرة في المتصفح ويدعم ملفات PSD مثل بديل فوري لـ Photoshop.",
+      "descriptionEn": "Full-featured, free browser-based image editor supporting PSD, XCF, Sketch, and AI formats without installation.",
+      "longDescriptionAr": "يعد Photopea إنجازًا تقنيًا يتيح لك فتح وتعديل ملفات فوتوشوب PSD في متصفحك بالكامل دون الحاجة لتثبيت أي برامج، مع دعم الطبقات والأقنعة والمرشحات والألوان بدقة احترافية.",
+      "longDescriptionEn": "Photopea is a powerful web-native raster and vector graphics editor that opens Photoshop PSD files seamlessly right in any browser tab with complete layer and mask support.",
+      "category": "images-design",
+      "subcategory": "In-Browser Image Editor",
+      "pricing": "Free",
+      "officialUrl": "https://www.photopea.com",
+      "icon": "Sliders",
+      "brandColor": "#10B981",
+      "features": {
+        "ar": [
+          "دعم كامل لملفات PSD والطبقات والأقنعة",
+          "يعمل مباشرة في المتصفح دون تثبيت",
+          "مجاني بالكامل مع حفظ فوري",
+          "أدوات فرشاة وقص وتعديل احترافية"
+        ],
+        "en": [
+          "Native PSD, Sketch, and XCF support",
+          "100% browser-based with no install",
+          "Full layer and mask manipulation",
+          "Completely free to use"
+        ]
+      },
+      "keywords": [
+        "فوتوشوب",
+        "محرر صور",
+        "psd",
+        "مجاني",
+        "متصفح",
+        "photoshop alternative"
+      ],
+      "tags": [
+        "psd-editor",
+        "free",
+        "browser-tool",
+        "photoshop-alternative"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2013-09-14T00:00:00Z",
+      "updatedAt": "2025-01-05T00:00:00Z",
+      "popularityScore": 92
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "slug": "runway",
+      "nameAr": "رن واي",
+      "nameEn": "Runway",
+      "descriptionAr": "المنصة الرائدة في توليد مقاطع الفيديو السينمائية بالذكاء الاصطناعي (Gen-2 وGen-3 Alpha).",
+      "descriptionEn": "Groundbreaking generative video studio powering next-generation cinematic AI video generation.",
+      "longDescriptionAr": "تعتبر Runway في طليعة الإنتاج السينمائي بالذكاء الاصطناعي؛ حيث تمكّن المخرجين وصناع المحتوى من تحويل النصوص والصور إلى لقطات فيديو سينمائية واقعية مع تحكم في حركة الكاميرا والفرشاة الحركية.",
+      "longDescriptionEn": "Runway is the premier creative suite for AI video synthesis. Its Gen-3 Alpha model produces high-fidelity photorealistic video clips with camera direction and motion brush control.",
+      "category": "video",
+      "subcategory": "Cinematic Video Generation",
+      "pricing": "Freemium",
+      "officialUrl": "https://runwayml.com",
+      "icon": "Video",
+      "brandColor": "#6366F1",
+      "features": {
+        "ar": [
+          "توليد فيديو عالي الدقة من نص أو صورة",
+          "تحكم كامل في زوايا وحركة الكاميرا",
+          "فرشاة الحركة Motion Brush لتحديد العناصر",
+          "أدوات مونتاج متقدمة ومؤثرات خضراء"
+        ],
+        "en": [
+          "Text-to-video & image-to-video",
+          "Director camera angle controls",
+          "Motion Brush localized animation",
+          "Green screen and inpainting tools"
+        ]
+      },
+      "keywords": [
+        "فيديو",
+        "سينما",
+        "gen-3",
+        "مؤثرات",
+        "توليد فيديو",
+        "motion"
+      ],
+      "tags": [
+        "text-to-video",
+        "cinematic",
+        "gen-3",
+        "vfx"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2019-01-01T00:00:00Z",
+      "updatedAt": "2025-02-12T00:00:00Z",
+      "popularityScore": 97
+    },
+    {
+      "id": "kling-ai",
+      "name": "Kling AI",
+      "slug": "kling-ai",
+      "nameAr": "كلينج للذكاء الاصطناعي",
+      "nameEn": "Kling AI",
+      "descriptionAr": "نموذج توليد فيديو فائق الدقة يقدم محاكاة فيزيائية واقعية وحركات طبيعية مذهلة للأجسام.",
+      "descriptionEn": "High-fidelity video generator delivering realistic physical simulation and fluid motion dynamics.",
+      "longDescriptionAr": "أبهرت Kling AI صانعي المحتوى بقدرتها الاستثنائية على محاكاة قوانين الفيزياء، وتوليد مقاطع طويلة بدقة 1080p بمعدل إطارات سلس، مع تعبيرات وجه وحركات بشرية طبيعية للغاية.",
+      "longDescriptionEn": "Kling AI pushes the frontier of generative video with long-duration 1080p generation, accurate real-world physics, and realistic human facial expressions.",
+      "category": "video",
+      "subcategory": "High-Fidelity Video Synthesis",
+      "pricing": "Freemium",
+      "officialUrl": "https://klingai.com",
+      "icon": "Film",
+      "brandColor": "#EC4899",
+      "features": {
+        "ar": [
+          "محاكاة فيزيائية واقعية للحركة",
+          "توليد مقاطع فيديو تصل إلى عدة دقائق",
+          "جودة نقية بدقة Full HD",
+          "توليد فيديو من الصور والأوامر النصية"
+        ],
+        "en": [
+          "Realistic physical dynamics",
+          "Extended multi-minute generations",
+          "High-definition 1080p output",
+          "Image and text prompt workflows"
+        ]
+      },
+      "keywords": [
+        "kling",
+        "فيديو واقعي",
+        "فيزياء",
+        "حركة سلسة",
+        "1080p"
+      ],
+      "tags": [
+        "physics-simulation",
+        "high-definition",
+        "video-gen",
+        "motion"
+      ],
+      "featured": false,
+      "isNew": true,
+      "isActive": true,
+      "createdAt": "2024-06-01T00:00:00Z",
+      "updatedAt": "2025-02-16T00:00:00Z",
+      "popularityScore": 93
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "slug": "pika",
+      "nameAr": "بيكا",
+      "nameEn": "Pika",
+      "descriptionAr": "أداة إبداعية لتحريك الصور وإنتاج مقاطع فيديو قصيرة مع مؤثرات مرحة وسريعة مثل الانتفاخ والذوبان.",
+      "descriptionEn": "Playful and powerful video generation platform specializing in animated clips and physics effects.",
+      "longDescriptionAr": "تتيح منصة Pika لأي شخص تحويل الأفكار والرسومات إلى رسوم متحركة ومقاطع فيديو ديناميكية، مع إمكانية تعديل عناصر معينة في الفيديو وإضافة مؤثرات فيزيائية ممتعة.",
+      "longDescriptionEn": "Pika lets creators ideate and animate 3D, anime, and photorealistic clips seamlessly, featuring localized canvas editing and creative destruction effects.",
+      "category": "video",
+      "subcategory": "Creative Video Effects & Animation",
+      "pricing": "Freemium",
+      "officialUrl": "https://pika.art",
+      "icon": "Sparkles",
+      "brandColor": "#F97316",
+      "features": {
+        "ar": [
+          "تحريك الصور الثابتة بأسلوب جذاب",
+          "مؤثرات فيزيائية مبتكرة (ذوبان، تفجير، سحق)",
+          "تعديل مناطق محددة في الفيديو (Modify Region)",
+          "مزامنة شفايف صوتية للأشخاص"
+        ],
+        "en": [
+          "Animate static illustrations and stills",
+          "Pikaffects physics distortions",
+          "In-canvas region re-generation",
+          "Lip-sync voice animation"
+        ]
+      },
+      "keywords": [
+        "تحريك صور",
+        "رسوم متحركة",
+        "مؤثرات",
+        "فيديو قصير",
+        "animation"
+      ],
+      "tags": [
+        "animation",
+        "pikaffects",
+        "lip-sync",
+        "creative-effects"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2023-04-20T00:00:00Z",
+      "updatedAt": "2025-01-20T00:00:00Z",
+      "popularityScore": 89
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "slug": "heygen",
+      "nameAr": "هاي جين",
+      "nameEn": "HeyGen",
+      "descriptionAr": "منصة متطورة لإنشاء فيديوهات بشخصيات رمزية واقعية (Avatars) ودبلجة احترافية بالفيديو.",
+      "descriptionEn": "AI video generation platform specializing in ultra-realistic talking avatars and video translation.",
+      "longDescriptionAr": "تُعد HeyGen الحل المثالي للشركات لإنتاج فيديوهات تسويقية وتدريبية دون الحاجة لاستوديوهات أو ممثلين؛ إذ توفر شخصيات رقمية تتحدث بأكثر من 100 لغة مع مزامنة كاملة لحركة الشفاه.",
+      "longDescriptionEn": "HeyGen transforms text into polished spokesperson videos with lifelike digital twins, realistic voice cloning, and multilingual video translation with native lip alignment.",
+      "category": "video",
+      "subcategory": "AI Avatars & Video Translation",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.heygen.com",
+      "icon": "UserCheck",
+      "brandColor": "#8B5CF6",
+      "features": {
+        "ar": [
+          "أفاتار رقمي واقعي يتحدث بلغات متعددة",
+          "دبلجة الفيديو وترجمة حركة الشفاه آلياً",
+          "إنشاء نسخة رقمية مطابقة لصوتك ومظهرك",
+          "قوالب جاهزة للشركات والتدريب"
+        ],
+        "en": [
+          "Photorealistic talking avatars",
+          "Automated video dubbing with lip sync",
+          "Personal digital twin creation",
+          "Corporate presentation templates"
+        ]
+      },
+      "keywords": [
+        "شخصيات رقمية",
+        "أفاتار",
+        "دبلجة",
+        "فيديوهات تدريبية",
+        "avatars",
+        "translation"
+      ],
+      "tags": [
+        "talking-avatars",
+        "video-dubbing",
+        "localization",
+        "corporate"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2022-09-01T00:00:00Z",
+      "updatedAt": "2025-02-08T00:00:00Z",
+      "popularityScore": 94
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "slug": "capcut",
+      "nameAr": "كاب كات",
+      "nameEn": "CapCut",
+      "descriptionAr": "برنامج المونتاج الأكثر شهرة لتيك توك وريلز مع أدوات ذكاء اصطناعي لإنشاء وتعديل الفيديوهات.",
+      "descriptionEn": "Comprehensive video editing suite tailored for short-form video creators with built-in AI tools.",
+      "longDescriptionAr": "يقدم CapCut تجربة تحرير فيديو احترافية وسهلة للهواتف والكمبيوتر، متضمنًا الكتابة التلقائية للنصوص على الفيديو، إزالة الخلفيات، وتطبيق الفلاتر والمؤثرات الصوتية الشائعة.",
+      "longDescriptionEn": "CapCut provides creators with cutting-edge mobile and desktop video editing capabilities, including auto-captions, background removal, trending templates, and text-to-speech.",
+      "category": "video",
+      "subcategory": "Short-Form Video Editor",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.capcut.com",
+      "icon": "Scissors",
+      "brandColor": "#000000",
+      "features": {
+        "ar": [
+          "توليد الترجمة التلقائية المصاحبة للكلام (Captions)",
+          "إزالة الخلفيات من الفيديو بدون كروما",
+          "مكتبة ضخمة من المؤثرات والانتقالات والموسيقى",
+          "قوالب سريعة للمنصات الاجتماعية"
+        ],
+        "en": [
+          "Auto-caption transcription styling",
+          "Chroma-free background removal",
+          "Vast effects and audio catalog",
+          "Pre-configured social aspect ratios"
+        ]
+      },
+      "keywords": [
+        "كاب كات",
+        "مونتاج",
+        "تيك توك",
+        "ريلز",
+        "ترجمة تلقائية",
+        "short form"
+      ],
+      "tags": [
+        "mobile-editor",
+        "auto-captions",
+        "tiktok",
+        "reels",
+        "youtube-shorts"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2020-04-10T00:00:00Z",
+      "updatedAt": "2025-01-30T00:00:00Z",
+      "popularityScore": 95
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "slug": "descript",
+      "nameAr": "ديسكريبت",
+      "nameEn": "Descript",
+      "descriptionAr": "محرر صوت وفيديو ثوري يتيح لك تعديل المقاطع عن طريق تعديل النص المكتوب كأنك تعدل ملف Word.",
+      "descriptionEn": "Revolutionary podcast and video editor that lets you edit audio and video simply by editing text transcripts.",
+      "longDescriptionAr": "يغير Descript مفهوم المونتاج الصوتي والمرئي؛ فبمجرد رفع التسجيل، يقوم بتفريغه نصياً ليمكنك حذف الكلمات غير المرغوبة والوقفات المحرجة ومقاطع الصمت فقط عن طريق مسحها من النص.",
+      "longDescriptionEn": "Descript turns complex timeline editing into intuitive document editing. Delete filler words, adjust dialogue, and clone your voice to fix mistakes directly in the written transcript.",
+      "category": "video",
+      "subcategory": "Text-Based Video & Audio Editor",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.descript.com",
+      "icon": "FileText",
+      "brandColor": "#3B82F6",
+      "features": {
+        "ar": [
+          "تعديل الفيديو والصوت عبر المستند النصي",
+          "حذف كلمات الحشو والتردد بنقرة واحدة",
+          "ميزة تصحيح اتجاه العين بالذكاء الاصطناعي",
+          "عزل الضوضاء وتحسين جودة الصوت كاستوديو"
+        ],
+        "en": [
+          "Text-based timeline editing",
+          "One-click filler word removal",
+          "AI Eye Contact correction",
+          "Studio Sound noise suppression"
+        ]
+      },
+      "keywords": [
+        "بودكاست",
+        "تفريغ نصي",
+        "مونتاج نصي",
+        "حذف الوقفات",
+        "overdub"
+      ],
+      "tags": [
+        "podcasts",
+        "text-editing",
+        "studio-sound",
+        "transcription"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2017-12-01T00:00:00Z",
+      "updatedAt": "2025-01-20T00:00:00Z",
+      "popularityScore": 91
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "slug": "elevenlabs",
+      "nameAr": "إليفن لابس",
+      "nameEn": "ElevenLabs",
+      "descriptionAr": "المنصة الأولى عالمياً في توليد الأصوات البشرية الواقعية واستنساخ النبرات وترجمة الصوت.",
+      "descriptionEn": "Leading voice AI research platform providing natural voice synthesis, voice cloning, and audio dubbing.",
+      "longDescriptionAr": "توفر ElevenLabs تكنولوجيا توليد صوتي تحاكي المشاعر والتنغيم البشري بدقة مدهشة بعشرات اللغات، مما يمكن المعلقين والكتّاب من تحويل النصوص إلى تعليق صوتي احترافي جاهز للنشر.",
+      "longDescriptionEn": "ElevenLabs leads the industry in natural-sounding text-to-speech with emotional depth and nuance, instant voice cloning, and zero-latency conversational agents.",
+      "category": "audio-music",
+      "subcategory": "Voice Synthesis & Audio Dubbing",
+      "pricing": "Freemium",
+      "officialUrl": "https://elevenlabs.io",
+      "icon": "Mic",
+      "brandColor": "#000000",
+      "features": {
+        "ar": [
+          "أصوات واقعية بمشاعر وتنغيم بشري طبيعي",
+          "استنساخ الأصوات من عينات قصيرة",
+          "دعم أكثر من 29 لغة بجودة عالية",
+          "توليد مؤثرات صوتية من الوصف النصي"
+        ],
+        "en": [
+          "Hyper-realistic emotional voice synthesis",
+          "Voice cloning from short audio samples",
+          "Multilingual support in 29+ languages",
+          "Sound effects generator from text prompts"
+        ]
+      },
+      "keywords": [
+        "تعليق صوتي",
+        "استنساخ الصوت",
+        "نص إلى صوت",
+        "ذكاء اصطناعي صوتي",
+        "voice cloning"
+      ],
+      "tags": [
+        "text-to-speech",
+        "voice-cloning",
+        "voiceover",
+        "sound-effects"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2022-05-10T00:00:00Z",
+      "updatedAt": "2025-02-15T00:00:00Z",
+      "popularityScore": 98
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "slug": "suno",
+      "nameAr": "سونو",
+      "nameEn": "Suno",
+      "descriptionAr": "منصة رائدة لتأليف وإنتاج أغانٍ كاملة بالكلمات والألحان والغناء من مجرد فكرة أو سطر نصي.",
+      "descriptionEn": "Generative music creation platform composing complete radio-ready songs with vocals and instruments from text.",
+      "longDescriptionAr": "تتيح لك Suno تأليف أغانٍ كاملة بجميع الأنماط الموسيقية (بوب، روك، شرقي، جاز) متضمنة الكلمات والألحان والأصوات الغنائية في ثوانٍ معدودة دون الحاجة لأي خبرة موسيقية.",
+      "longDescriptionEn": "Suno empowers anyone to make full-length musical compositions. Specify a genre, mood, and lyrics to generate layered studio-grade tracks spanning classical, pop, jazz, and beyond.",
+      "category": "audio-music",
+      "subcategory": "Generative Music Production",
+      "pricing": "Freemium",
+      "officialUrl": "https://suno.com",
+      "icon": "Radio",
+      "brandColor": "#F43F5E",
+      "features": {
+        "ar": [
+          "تأليف أغانٍ كاملة بأصوات غنائية وألحان متناغمة",
+          "دعم كافة الأنماط الموسيقية واللغات",
+          "إمكانية كتابة كلماتك الخاصة أو توليدها تلقائياً",
+          "تصدير مقاطع الصوت والفيديو بدقة عالية"
+        ],
+        "en": [
+          "Generates full songs with vocals and music",
+          "Diverse genre and linguistic support",
+          "Custom lyric input or auto-composition",
+          "High-quality WAV audio export"
+        ]
+      },
+      "keywords": [
+        "موسيقى",
+        "أغاني",
+        "تلحين",
+        "غناء",
+        "إنتاج موسيقي",
+        "music generator"
+      ],
+      "tags": [
+        "songwriting",
+        "generative-music",
+        "vocals",
+        "instrumental"
+      ],
+      "featured": true,
+      "isNew": true,
+      "isActive": true,
+      "createdAt": "2023-12-01T00:00:00Z",
+      "updatedAt": "2025-02-17T00:00:00Z",
+      "popularityScore": 96
+    },
+    {
+      "id": "voicemod",
+      "name": "Voicemod",
+      "slug": "voicemod",
+      "nameAr": "فويسمود",
+      "nameEn": "Voicemod",
+      "descriptionAr": "برنامج لتغيير الصوت بالذكاء الاصطناعي في الوقت الحقيقي أثناء الألعاب والبث المباشر والمكالمات.",
+      "descriptionEn": "Real-time AI voice changer and soundboard software for gamers, live streamers, and online meetings.",
+      "longDescriptionAr": "يقدم Voicemod إمكانية تحويل صوتك لحظياً إلى روبوت أو كائن فضائي أو مذيع محترف أثناء اللعب في Discord أو البث على Twitch، مع لوحة مؤثرات صوتية تفاعلية.",
+      "longDescriptionEn": "Voicemod alters your microphone feed in real time with AI-driven voice modulation, providing custom soundboards and integrations for Discord, OBS, and multiplayer games.",
+      "category": "audio-music",
+      "subcategory": "Real-Time Voice Changer",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.voicemod.net",
+      "icon": "Volume2",
+      "brandColor": "#06B6D4",
+      "features": {
+        "ar": [
+          "تعديل الصوت اللحظي بدون تأخير",
+          "مكتبة ضخمة من الشخصيات الصوتية الذكية",
+          "لوحة مؤثرات صوتية (Soundboard) مخصصة",
+          "تكامل سهل مع Discord وZoom وOBS"
+        ],
+        "en": [
+          "Zero-latency real-time voice modification",
+          "Extensive library of AI voice avatars",
+          "Custom hotkey soundboard triggers",
+          "Discord and OBS native support"
+        ]
+      },
+      "keywords": [
+        "تغيير الصوت",
+        "ديسكورد",
+        "ألعاب",
+        "بث مباشر",
+        "soundboard"
+      ],
+      "tags": [
+        "voice-modulation",
+        "soundboard",
+        "streaming",
+        "gaming"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2016-01-01T00:00:00Z",
+      "updatedAt": "2024-11-20T00:00:00Z",
+      "popularityScore": 88
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "slug": "otter-ai",
+      "nameAr": "أوتر للذكاء الاصطناعي",
+      "nameEn": "Otter.ai",
+      "descriptionAr": "مساعد ذكي للاجتماعات يسجل ويكتب تفريغًا نصيًا فوريًا ويلخص المحادثات ومهام العمل.",
+      "descriptionEn": "AI meeting assistant that records, transcribes, and summarizes Zoom, Google Meet, and Teams calls in real time.",
+      "longDescriptionAr": "يقوم Otter بالانضمام التلقائي لاجتماعاتك على Zoom وTeams وGoogle Meet لتدوين كل كلمة قيلت بدقة، وتمييز المتحدثين، واستخراج بنود العمل والقرارات الهامة.",
+      "longDescriptionEn": "Otter automatically captures conversations across enterprise conference tools, delivering live collaborative transcripts, meeting summaries, and actionable next steps.",
+      "category": "audio-music",
+      "subcategory": "Meeting Transcription & Notes",
+      "pricing": "Freemium",
+      "officialUrl": "https://otter.ai",
+      "icon": "FileAudio",
+      "brandColor": "#2563EB",
+      "features": {
+        "ar": [
+          "تفريغ نصي لحظي خلال الاجتماع",
+          "ملخص تنفيذي لأهم القرارات والمهام",
+          "التعرف على أصوات المتحدثين وتمييزهم",
+          "تكامل مع تقويم Google وميكروسوفت"
+        ],
+        "en": [
+          "Live real-time meeting transcription",
+          "Automated executive summaries and action items",
+          "Speaker identification tagging",
+          "Google and Outlook calendar sync"
+        ]
+      },
+      "keywords": [
+        "اجتماعات",
+        "تفريغ فوري",
+        "تلخيص زووم",
+        "تدوين ملاحظات",
+        "transcription"
+      ],
+      "tags": [
+        "transcription",
+        "meeting-notes",
+        "zoom",
+        "summary"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2018-02-01T00:00:00Z",
+      "updatedAt": "2025-01-18T00:00:00Z",
+      "popularityScore": 90
+    },
+    {
+      "id": "fireflies-ai",
+      "name": "Fireflies.ai",
+      "slug": "fireflies-ai",
+      "nameAr": "فايرفلايز",
+      "nameEn": "Fireflies.ai",
+      "descriptionAr": "أداة تدوين وتلخيص اجتماعات الشركات المتقدمة مع تحليلات ذكية لأداء المحادثات ومشاعر العملاء.",
+      "descriptionEn": "AI conversation intelligence assistant that records, transcribes, and conducts sentiment analysis on meetings.",
+      "longDescriptionAr": "تساعد Fireflies.ai فرق المبيعات والإدارة على أرشفة كافة الاجتماعات وفهرستها والبحث الصوتي داخلها، مع قياس أوقات التحدث وتحليل مشاعر المحادثة بنقرة واحدة.",
+      "longDescriptionEn": "Fireflies automates team meeting notes, syncs CRM updates, provides conversational analytics, and allows instant audio search across all company conversations.",
+      "category": "audio-music",
+      "subcategory": "Conversation Intelligence",
+      "pricing": "Freemium",
+      "officialUrl": "https://fireflies.ai",
+      "icon": "CheckCircle",
+      "brandColor": "#7C3AED",
+      "features": {
+        "ar": [
+          "تفريغ صوتي عالي الدقة للاجتماعات",
+          "ميزة البحث الذكي داخل التسجيلات",
+          "تحليلات مشاعر المتحدثين ونسبة الحديث",
+          "مزامنة مباشرة مع برامج CRM وSlack"
+        ],
+        "en": [
+          "High-accuracy audio transcriptions",
+          "Smart search filters across meetings",
+          "Sentiment and talk-time analytics",
+          "CRM and Slack automated sync"
+        ]
+      },
+      "keywords": [
+        "مبيعات",
+        "اجتماعات شركات",
+        "تحليل مشاعر",
+        "crm",
+        "meeting intelligence"
+      ],
+      "tags": [
+        "crm-sync",
+        "sales-intelligence",
+        "analytics",
+        "meetings"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2019-06-01T00:00:00Z",
+      "updatedAt": "2025-01-22T00:00:00Z",
+      "popularityScore": 89
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "slug": "grammarly",
+      "nameAr": "جرامرلي",
+      "nameEn": "Grammarly",
+      "descriptionAr": "المساعد الأكثر ثقة عالمياً للتدقيق اللغوي والإملائي وتحسين الأسلوب والنبرة باللغة الإنجليزية.",
+      "descriptionEn": "Universal AI writing assistant improving grammar, clarity, tone, and vocabulary across all desktop apps.",
+      "longDescriptionAr": "يرافقك Grammarly أثناء كتابة رسائل البريد الإلكتروني والمستندات والتقارير لضمان خلو كتابتك من الأخطاء النحوية، مع اقتراح صياغات احترافية ملائمة لسياق العمل.",
+      "longDescriptionEn": "Grammarly enhances written communication wherever you type. It corrects spelling, refines sentence structures, detects emotional tone, and rewrites text for maximum impact.",
+      "category": "writing-content",
+      "subcategory": "Grammar & Clarity Assistant",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.grammarly.com",
+      "icon": "Check",
+      "brandColor": "#10B981",
+      "features": {
+        "ar": [
+          "تصحيح فوري للقواعد والإملاء وعلامات الترقيم",
+          "اقتراحات لتحسين وضوح الجمل وإيجازها",
+          "فاحص نبرة الحديث (ودية، رسمية، مباشرة)",
+          "يعمل في المتصفح وتطبيقات المكتب وسطح المكتب"
+        ],
+        "en": [
+          "Real-time grammar and syntax correction",
+          "Clarity and conciseness enhancements",
+          "Tone detector and style adjustments",
+          "Browser extension and desktop support"
+        ]
+      },
+      "keywords": [
+        "تدقيق لغوي",
+        "قواعد",
+        "إنجليزي",
+        "تصحيح إملائي",
+        "grammar",
+        "proofreading"
+      ],
+      "tags": [
+        "grammar",
+        "proofreading",
+        "spelling",
+        "tone-detection"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2009-07-01T00:00:00Z",
+      "updatedAt": "2025-02-01T00:00:00Z",
+      "popularityScore": 97
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "slug": "quillbot",
+      "nameAr": "كويل بوت",
+      "nameEn": "QuillBot",
+      "descriptionAr": "أداة رائدة في إعادة الصياغة الذكية للنصوص وتحسين أسلوب الكتابة وتلخيص المقالات الطويلة.",
+      "descriptionEn": "AI paraphrasing tool designed to rewrite sentences, summarize lengthy documents, and prevent repetition.",
+      "longDescriptionAr": "يساعد QuillBot الطلاب والباحثين وصناع المحتوى على إعادة صياغة الجمل بطرق متنوعة (رسمية، بسيطة، إبداعية)، مع فاحص انتحال مدمج ومولد للاقتباسات الأكاديمية.",
+      "longDescriptionEn": "QuillBot makes paraphrasing effortless with multiple customization modes, an automated document summarizer, grammar checker, and academic citation generator.",
+      "category": "writing-content",
+      "subcategory": "Paraphrasing & Summarization",
+      "pricing": "Freemium",
+      "officialUrl": "https://quillbot.com",
+      "icon": "RefreshCw",
+      "brandColor": "#16A34A",
+      "features": {
+        "ar": [
+          "أوضاع متعددة لإعادة الصياغة (فصيح، مختصر، إبداعي)",
+          "تلخيص الفقرات والمقالات بضغطة زر",
+          "قاموس مرادفات ذكي وتفاعلي",
+          "فاحص الانتحال الأدبي والاقتباسات"
+        ],
+        "en": [
+          "Multiple distinct paraphrasing modes",
+          "Instant text and article summarizer",
+          "Interactive contextual thesaurus",
+          "Integrated plagiarism checker"
+        ]
+      },
+      "keywords": [
+        "إعادة صياغة",
+        "تلخيص",
+        "أبحاث",
+        "تحسين الأسلوب",
+        "paraphrasing"
+      ],
+      "tags": [
+        "paraphrasing",
+        "summarizer",
+        "thesaurus",
+        "academic"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2017-08-01T00:00:00Z",
+      "updatedAt": "2025-01-20T00:00:00Z",
+      "popularityScore": 93
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "slug": "jasper",
+      "nameAr": "جاسبر",
+      "nameEn": "Jasper",
+      "descriptionAr": "منصة الذكاء الاصطناعي لكتابة المحتوى التسويقي والإعلاني المتوافق مع هوية العلامات التجارية.",
+      "descriptionEn": "Enterprise AI copilot built for marketing teams to scale brand-consistent campaigns and copy.",
+      "longDescriptionAr": "تم تصميم Jasper خصيصاً لفرق التسويق والشركات الكبرى؛ حيث يتعلم نبرة علامتك التجارية وينتج حملات إعلانية متكاملة ومقالات مدونة محسنة لمحركات البحث في دقائق.",
+      "longDescriptionEn": "Jasper is engineered for enterprise marketing. It memorizes company style guides, generates multichannel ad copy, and crafts long-form SEO blog posts that match your voice.",
+      "category": "writing-content",
+      "subcategory": "Enterprise Marketing Copywriter",
+      "pricing": "Paid",
+      "officialUrl": "https://www.jasper.ai",
+      "icon": "Award",
+      "brandColor": "#F59E0B",
+      "features": {
+        "ar": [
+          "تدريب الذكاء الاصطناعي على نبرة علامتك التجارية (Brand Voice)",
+          "توليد حملات تسويقية متكاملة لعدة قنوات",
+          "أكثر من 50 قالب كتابة إعلانية مجرب",
+          "تكامل مع أدوات تحليل محركات البحث"
+        ],
+        "en": [
+          "Custom Brand Voice personalization",
+          "Omnichannel marketing campaign builder",
+          "50+ battle-tested copywriting formulas",
+          "SEO performance tool integrations"
+        ]
+      },
+      "keywords": [
+        "تسويق",
+        "إعلانات",
+        "كتابة محتوى",
+        "هوية العلامة",
+        "copywriting"
+      ],
+      "tags": [
+        "brand-voice",
+        "copywriting",
+        "marketing-campaigns",
+        "enterprise"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2021-01-15T00:00:00Z",
+      "updatedAt": "2025-01-10T00:00:00Z",
+      "popularityScore": 89
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "slug": "copy-ai",
+      "nameAr": "كوبي إيه آي",
+      "nameEn": "Copy.ai",
+      "descriptionAr": "أداة كتابة ذكية وأتمتة مسارات العمل التسويقية وصياغة منشورات التواصل والإيميلات التسويقية.",
+      "descriptionEn": "AI content generator and go-to-market workflow platform for sales, marketing, and social posts.",
+      "longDescriptionAr": "تساعد Copy.ai رواد الأعمال والمسوقين على كتابة نصوص بيعية جذابة، وتوليد مئات الأفكار الإعلانية، وأتمتة كتابة المحتوى على منصات مثل LinkedIn وX بسرعة وسهولة.",
+      "longDescriptionEn": "Copy.ai automates copywriting for go-to-market workflows. Generate engaging social captions, cold outreach emails, and product descriptions with structured prompts.",
+      "category": "writing-content",
+      "subcategory": "GTM Workflow & Social Copy",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.copy.ai",
+      "icon": "PenTool",
+      "brandColor": "#059669",
+      "features": {
+        "ar": [
+          "توليد منشورات شبكات التواصل بنقرة واحدة",
+          "أتمتة كتابة الرسائل التسويقية الباردة",
+          "قوالب لكتابة أوصاف المنتجات والمتاجر",
+          "مسارات عمل آلية لفرق التسويق"
+        ],
+        "en": [
+          "One-click social media post generator",
+          "Cold sales email workflow builder",
+          "E-commerce product description creator",
+          "Automated GTM marketing workflows"
+        ]
+      },
+      "keywords": [
+        "إيميلات تسويقية",
+        "لينكد إن",
+        "نصوص بيع",
+        "أفكار إعلانية",
+        "social posts"
+      ],
+      "tags": [
+        "social-posts",
+        "sales-emails",
+        "product-descriptions",
+        "gtm"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2020-10-01T00:00:00Z",
+      "updatedAt": "2025-01-15T00:00:00Z",
+      "popularityScore": 90
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "slug": "deepl",
+      "nameAr": "ديب إل",
+      "nameEn": "DeepL",
+      "descriptionAr": "أدق وأفضل مترجم آلي في العالم يقدم ترجمات طبيعية تحافظ على السياق والتعبير اللغوي الأصيل.",
+      "descriptionEn": "World-renowned neural translation engine celebrated for natural phrasing and cultural accuracy.",
+      "longDescriptionAr": "يتفوق DeepL على كافة أدوات الترجمة التقليدية بفضل شبكاته العصبية المتقدمة التي تفهم الفروق الدقيقة والمصطلحات التعبيرية، مع إمكانية ترجمة ملفات Word وPDF كاملة مع الحفاظ على التنسيق.",
+      "longDescriptionEn": "DeepL outperforms traditional translation tools by capturing cultural nuance and industry terminology accurately, supporting instant whole-document translation while preserving layouts.",
+      "category": "writing-content",
+      "subcategory": "Neural Translation Engine",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.deepl.com",
+      "icon": "Globe",
+      "brandColor": "#0F172A",
+      "features": {
+        "ar": [
+          "ترجمة فائقة الدقة تحاكي الصياغة البشرية",
+          "ترجمة ملفات PDF وWord مع الحفاظ على التنسيق",
+          "أداة DeepL Write لتحسين الأسلوب والتدقيق",
+          "دعم أكثر من 30 لغة عالمية"
+        ],
+        "en": [
+          "Unmatched contextual neural translation",
+          "Full PDF and Word document formatting retention",
+          "DeepL Write native stylistic rewriter",
+          "30+ globally supported languages"
+        ]
+      },
+      "keywords": [
+        "ترجمة",
+        "لغات",
+        "مترجم احترافي",
+        "ترجمة مستندات",
+        "translation"
+      ],
+      "tags": [
+        "neural-translation",
+        "document-translation",
+        "deepl-write",
+        "multilingual"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2017-08-28T00:00:00Z",
+      "updatedAt": "2025-02-01T00:00:00Z",
+      "popularityScore": 96
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "slug": "cursor",
+      "nameAr": "كورسور",
+      "nameEn": "Cursor",
+      "descriptionAr": "محرر الأكواد الأذكى في العالم المبني على VS Code مع فهم عميق لكامل مشروعك البرمجي.",
+      "descriptionEn": "Next-generation AI code editor built on VS Code with full codebase indexing and agentic generation.",
+      "longDescriptionAr": "يعد Cursor محرر البرمجة المفضل للمطورين حول العالم؛ حيث يفهم بنية مشروعك بالكامل ويقوم بالتعديل عبر عدة ملفات في نفس الوقت، ويتنبأ بالأسطر البرمجية القادمة بسرعة مذهلة.",
+      "longDescriptionEn": "Cursor redefines software development with intelligent full-codebase understanding. It executes multi-file edits, auto-completes complex logic, and answers repository queries in seconds.",
+      "category": "programming",
+      "subcategory": "AI Code Editor",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.cursor.com",
+      "icon": "Code2",
+      "brandColor": "#6366F1",
+      "features": {
+        "ar": [
+          "فهم شامل للمشروع بأكمله (@Codebase)",
+          "تعديل وحل الأخطاء عبر عدة ملفات دفعة واحدة",
+          "إكمال تلقائي ذكي وسريع للأكواد",
+          "مبني على بيئة VS Code المألوفة"
+        ],
+        "en": [
+          "Full codebase contextual awareness",
+          "Multi-file parallel code editing",
+          "High-speed predictive autocompletion",
+          "Drop-in VS Code ecosystem compatibility"
+        ]
+      },
+      "keywords": [
+        "برمجة",
+        "محرر أكواد",
+        "vs code",
+        "تطوير برمجيات",
+        "cursor ai",
+        "developer"
+      ],
+      "tags": [
+        "code-editor",
+        "vs-code",
+        "full-codebase",
+        "autocompletion"
+      ],
+      "featured": true,
+      "isNew": true,
+      "isActive": true,
+      "createdAt": "2023-03-01T00:00:00Z",
+      "updatedAt": "2025-02-18T00:00:00Z",
+      "popularityScore": 99
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "slug": "github-copilot",
+      "nameAr": "جيت هب كوبايلوت",
+      "nameEn": "GitHub Copilot",
+      "descriptionAr": "المساعد البرمجي الرائد من GitHub وOpenAI الذي يقترح الأكواد والدوال البرمجية أثناء الكتابة.",
+      "descriptionEn": "The industry-standard AI pair programmer by GitHub and OpenAI that turns natural language into code.",
+      "longDescriptionAr": "يعمل GitHub Copilot كمبرمج شريك داخل محررك المفضل (VS Code، JetBrains، Neovim) ليقترح عليك السطور والدوال أثناء الكتابة، وتفسير الأكواد المعقدة واكتشاف الثغرات.",
+      "longDescriptionEn": "GitHub Copilot acts as your omnipresent pair programmer. It suggests contextual lines, writes unit tests, and explains complex snippets directly inside popular IDEs.",
+      "category": "programming",
+      "subcategory": "IDE Pair Programmer",
+      "pricing": "Paid",
+      "officialUrl": "https://github.com/features/copilot",
+      "icon": "Terminal",
+      "brandColor": "#24292F",
+      "features": {
+        "ar": [
+          "اقتراح أكواد برمجية بالوقت الفعلي",
+          "محادثة برمجية وتفسير الدوال والأخطاء",
+          "كتابة اختبارات الوحدة (Unit Tests) آلياً",
+          "دعم كافة لغات البرمجة وأشهر بيئات العمل"
+        ],
+        "en": [
+          "Real-time code autocompletion",
+          "In-editor Copilot Chat debugging",
+          "Automated unit test generation",
+          "Extensive multi-language & IDE support"
+        ]
+      },
+      "keywords": [
+        "github",
+        "copilot",
+        "برمجة",
+        "أكواد",
+        "pair programming",
+        "ide"
+      ],
+      "tags": [
+        "github",
+        "pair-programmer",
+        "autocompletion",
+        "unit-tests"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2021-06-29T00:00:00Z",
+      "updatedAt": "2025-01-28T00:00:00Z",
+      "popularityScore": 96
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "slug": "replit",
+      "nameAr": "ريبليت",
+      "nameEn": "Replit",
+      "descriptionAr": "بيئة تطوير برمجية سحابية متكاملة تتيح لك البرمجة ونشر التطبيقات والمواقع في ثوانٍ مع مساعد ذكي.",
+      "descriptionEn": "Cloud software development platform and collaborative workspace with integrated AI code generation.",
+      "longDescriptionAr": "تمكنك منصة Replit من كتابة البرمجيات ونشرها عبر السحابة فوراً من متصفحك أو هاتفك المحمول دون إعداد أي بيئة محلية، مع وكيل برمجي ينشئ لك التطبيقات من الفكرة إلى الإنتاج.",
+      "longDescriptionEn": "Replit allows developers to code, test, and deploy applications instantly from the browser. Its built-in Replit Agent can scaffold entire web apps from plain English instructions.",
+      "category": "programming",
+      "subcategory": "Cloud IDE & Autonomous Agent",
+      "pricing": "Freemium",
+      "officialUrl": "https://replit.com",
+      "icon": "Layers",
+      "brandColor": "#F26207",
+      "features": {
+        "ar": [
+          "بيئة برمجية سحابية فورية بدون تثبيت",
+          "نشر التطبيقات والمواقع بضغطة زر واحدة",
+          "وكيل Replit Agent لبناء التطبيقات من الأوامر",
+          "برمجة جماعية وتعاون في الوقت الحقيقي"
+        ],
+        "en": [
+          "Instant zero-setup cloud development environment",
+          "One-click global hosting and deployment",
+          "Replit Agent autonomous app creation",
+          "Real-time multiplayer coding"
+        ]
+      },
+      "keywords": [
+        "استضافة",
+        "برمجة سحابية",
+        "نشر مواقع",
+        "replit agent",
+        "cloud ide"
+      ],
+      "tags": [
+        "cloud-ide",
+        "hosting",
+        "deployment",
+        "multiplayer-code"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2016-01-01T00:00:00Z",
+      "updatedAt": "2025-02-10T00:00:00Z",
+      "popularityScore": 92
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "slug": "lovable",
+      "nameAr": "لوفابل",
+      "nameEn": "Lovable",
+      "descriptionAr": "منصة ذكية لبناء تطبيقات ومواقع الويب التفاعلية الكاملة من الأوامر النصية في دقائق معدودة.",
+      "descriptionEn": "AI software engineer that turns text prompts into polished, full-stack web applications effortlessly.",
+      "longDescriptionAr": "تتيح لك Lovable تحويل الأفكار إلى تطبيقات حقيقية تعمل بكامل وظائفها؛ حيث تصمم الواجهة وتكتب أكواد الواجهة الخلفية وقاعدة البيانات وتتيح لك تصدير المشروع ومزامنته مع GitHub.",
+      "longDescriptionEn": "Lovable is an innovative AI web builder that designs clean responsive frontends and configures backend integrations, letting you export directly to GitHub for production.",
+      "category": "programming",
+      "subcategory": "Full-Stack App Generator",
+      "pricing": "Freemium",
+      "officialUrl": "https://lovable.dev",
+      "icon": "Heart",
+      "brandColor": "#EC4899",
+      "features": {
+        "ar": [
+          "بناء تطبيقات ويب كاملة من مجرد وصف",
+          "تصاميم واجهات حديثة ومتجاوبة",
+          "تكامل سهل مع قواعد البيانات وقواعد البيانات الخارجية",
+          "مزامنة وتصدير مباشر إلى مستودعات GitHub"
+        ],
+        "en": [
+          "Build full web apps from natural language",
+          "Modern responsive UI generation",
+          "Seamless backend and database connections",
+          "Direct GitHub synchronization and export"
+        ]
+      },
+      "keywords": [
+        "بناء تطبيقات",
+        "تطوير سريع",
+        "fullstack",
+        "نو كود",
+        "app builder"
+      ],
+      "tags": [
+        "app-builder",
+        "fullstack",
+        "github-sync",
+        "no-code-hybrid"
+      ],
+      "featured": false,
+      "isNew": true,
+      "isActive": true,
+      "createdAt": "2024-08-01T00:00:00Z",
+      "updatedAt": "2025-02-14T00:00:00Z",
+      "popularityScore": 94
+    },
+    {
+      "id": "bolt-new",
+      "name": "Bolt.new",
+      "slug": "bolt-new",
+      "nameAr": "بولت نيو",
+      "nameEn": "Bolt.new",
+      "descriptionAr": "بيئة تطوير برمجية تعمل داخل المتصفح بالكامل لتثبيت حزم npm وتشغيل تطبيقات Full-Stack كاملة.",
+      "descriptionEn": "In-browser AI web development sandbox capable of installing npm packages, running Node servers, and compiling apps.",
+      "longDescriptionAr": "تعتمد Bolt.new على تقنية WebContainers لتشغيل بيئة Node.js حقيقية داخل متصفحك؛ مما يمكنك من إنشاء وتعديل ونشر تطبيقات ويب متكاملة من خلال المحادثة البرمجية التفاعلية.",
+      "longDescriptionEn": "Bolt.new by StackBlitz leverages WebContainers to run an authentic Node.js stack in your browser, generating, testing, and deploying production-grade web applications in real time.",
+      "category": "programming",
+      "subcategory": "In-Browser Fullstack Sandbox",
+      "pricing": "Freemium",
+      "officialUrl": "https://bolt.new",
+      "icon": "Zap",
+      "brandColor": "#EAB308",
+      "features": {
+        "ar": [
+          "تشغيل بيئة Node.js وحزم npm داخل المتصفح",
+          "معاينة فورية حية للتطبيق أثناء كتابة الأكواد",
+          "إصلاح الأخطاء وتحديث الشفرة آلياً بالذكاء الاصطناعي",
+          "نشر التطبيق على منصة Netlify بضغطة واحدة"
+        ],
+        "en": [
+          "Runs full Node.js container inside browser",
+          "Instant live application preview",
+          "AI-driven automated bug fixing",
+          "One-click production deployment to Netlify"
+        ]
+      },
+      "keywords": [
+        "stackblitz",
+        "webcontainers",
+        "تطوير ويب",
+        "react",
+        "fullstack in browser"
+      ],
+      "tags": [
+        "webcontainers",
+        "in-browser-node",
+        "stackblitz",
+        "live-preview"
+      ],
+      "featured": false,
+      "isNew": true,
+      "isActive": true,
+      "createdAt": "2024-09-10T00:00:00Z",
+      "updatedAt": "2025-02-16T00:00:00Z",
+      "popularityScore": 93
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "slug": "notion",
+      "nameAr": "نوشن",
+      "nameEn": "Notion",
+      "descriptionAr": "مساحة العمل الشاملة لإدارة الملاحظات والمستندات وقواعد البيانات والمشاريع مع مساعد ذكي مدمج.",
+      "descriptionEn": "The connected workspace for wiki notes, databases, and project tracking powered by integrated Notion AI.",
+      "longDescriptionAr": "يجمع Notion بين تدوين الملاحظات وإدارة المشاريع وبناء قواعد المعرفة في مكان واحد مرن وقابل للتخصيص، مع ميزات Notion AI لتلخيص الاجتماعات والكتابة التلقائية واستخراج الأفكار.",
+      "longDescriptionEn": "Notion unifies company wikis, project roadmaps, and custom databases. Its built-in Notion AI generates first drafts, summarizes documents, and answers questions across your team workspace.",
+      "category": "productivity",
+      "subcategory": "Connected Workspace & Wikis",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.notion.so",
+      "icon": "CheckSquare",
+      "brandColor": "#000000",
+      "features": {
+        "ar": [
+          "مساحة عمل متكاملة للمستندات وقواعد البيانات",
+          "مساعد Notion AI لتلخيص وتوليد الأفكار",
+          "قوالب جاهزة لإدارة المشاريع والشركات",
+          "تعاون ومشاركة فورية بين فرق العمل"
+        ],
+        "en": [
+          "Customizable document and database engine",
+          "Integrated Notion AI Q&A and writing",
+          "Vast community and project templates",
+          "Real-time collaborative workspaces"
+        ]
+      },
+      "keywords": [
+        "نوشن",
+        "إدارة مشاريع",
+        "ملاحظات",
+        "إنتاجية",
+        "notion ai",
+        "workspace"
+      ],
+      "tags": [
+        "notes",
+        "knowledge-base",
+        "project-tracking",
+        "databases"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2016-03-01T00:00:00Z",
+      "updatedAt": "2025-02-01T00:00:00Z",
+      "popularityScore": 98
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "slug": "clickup",
+      "nameAr": "كليك أب",
+      "nameEn": "ClickUp",
+      "descriptionAr": "منصة إدارة مهام ومشاريع شاملة توفر أكثر من 100 أداة وتكامل لزيادة إنتاجية فرق العمل.",
+      "descriptionEn": "All-in-one project management and team collaboration hub with AI-automated task workflows.",
+      "longDescriptionAr": "تعد ClickUp المنصة الشاملة لإدارة مهام الفريق؛ حيث تجمع بين لوحات كانبان، وجداول البيانات، وتتبع الوقت، والمستندات، مع ذكاء اصطناعي يلخص سلاسل المهام ويكتب تقارير الإنجاز.",
+      "longDescriptionEn": "ClickUp replaces fragmented productivity tools by providing tasks, docs, chat, and dashboards in a single platform. ClickUp Brain automates updates and synthesizes project progress.",
+      "category": "productivity",
+      "subcategory": "Team Project Management",
+      "pricing": "Freemium",
+      "officialUrl": "https://clickup.com",
+      "icon": "Trello",
+      "brandColor": "#7B68EE",
+      "features": {
+        "ar": [
+          "طرق عرض متعددة للمهام (قوائم، كانبان، جانت)",
+          "مساعد ClickUp Brain لأتمتة المهام وتلخيصها",
+          "تتبع دقيق للوقت وتقدير تكاليف المشاريع",
+          "تكامل مع مئات البرامج الخارجية"
+        ],
+        "en": [
+          "Multiple project views (List, Kanban, Gantt)",
+          "ClickUp Brain conversational AI assistant",
+          "Built-in time tracking and estimation",
+          "Hundreds of third-party integrations"
+        ]
+      },
+      "keywords": [
+        "إدارة مهام",
+        "فرق عمل",
+        "كانبان",
+        "تتبع الوقت",
+        "clickup brain"
+      ],
+      "tags": [
+        "task-management",
+        "kanban",
+        "gantt",
+        "team-collaboration"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2017-09-01T00:00:00Z",
+      "updatedAt": "2025-01-20T00:00:00Z",
+      "popularityScore": 91
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "slug": "zapier",
+      "nameAr": "زابير",
+      "nameEn": "Zapier",
+      "descriptionAr": "منصة الأتمتة الرائدة لربط آلاف التطبيقات وخدمات الويب ببعضها بدون كتابة أي سطر برمجي.",
+      "descriptionEn": "The global leader in no-code workflow automation, connecting over 6,000 web apps and services.",
+      "longDescriptionAr": "تمكنك Zapier من أتمتة الأعمال الروتينية اليومية بربط تطبيقات مثل Gmail، Slack، Notion، وExcel ببعضها لبناء مسارات عمل آلية (Zaps) تعمل في الخلفية على مدار الساعة.",
+      "longDescriptionEn": "Zapier connects the tools you use every day, letting you build multi-step automated workflows with triggers and actions without technical coding skills.",
+      "category": "productivity",
+      "subcategory": "No-Code App Automation",
+      "pricing": "Freemium",
+      "officialUrl": "https://zapier.com",
+      "icon": "Network",
+      "brandColor": "#FF4A00",
+      "features": {
+        "ar": [
+          "ربط أكثر من 6000 تطبيق وموقع مختلف",
+          "بناء مسارات عمل متعددة الخطوات والشروط",
+          "أدوات Zapier Central للوكلاء الأذكياء",
+          "سجلات فورية لتتبع العمليات والأخطاء"
+        ],
+        "en": [
+          "Connects 6,000+ popular applications",
+          "Multi-step conditional logic workflows",
+          "AI-assisted Zapier Central smart bots",
+          "Detailed live execution and audit logs"
+        ]
+      },
+      "keywords": [
+        "أتمتة",
+        "ربط تطبيقات",
+        "نو كود",
+        "zaps",
+        "workflow automation"
+      ],
+      "tags": [
+        "automation",
+        "zaps",
+        "integrations",
+        "no-code"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2011-10-01T00:00:00Z",
+      "updatedAt": "2025-02-01T00:00:00Z",
+      "popularityScore": 95
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "slug": "make",
+      "nameAr": "ميك",
+      "nameEn": "Make",
+      "descriptionAr": "منصة أتمتة بصرية قوية تتيح لك تصميم مسارات عمل رقمية معقدة ومترابطة عبر لوحة تفاعلية.",
+      "descriptionEn": "Visual workflow automation platform for designing complex, multi-service workflows with drag-and-drop ease.",
+      "longDescriptionAr": "تتميز منصة Make (المعروفة سابقاً باسم Integromat) بواجهتها البصرية الفريدة التي تتيح لك سحب وربط نقاط البيانات وتطبيق شروط ومعالجات متقدمة بين مختلف المنصات وقواعد البيانات.",
+      "longDescriptionEn": "Make lets you visually map, build, and automate complex processes. Its intuitive interface lets you manipulate data structures, route API payloads, and scale workflows visually.",
+      "category": "productivity",
+      "subcategory": "Visual Workflow Builder",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.make.com",
+      "icon": "Share2",
+      "brandColor": "#6B21A8",
+      "features": {
+        "ar": [
+          "لوحة تحكم بصرية تفاعلية بالسحب والإفلات",
+          "تحكم متقدم في معالجة وتحويل البيانات",
+          "تكلفة مرنة مناسبة للمشاريع الضخمة والشركات",
+          "تكرار واختبار العمليات بشكل مرئي مباشر"
+        ],
+        "en": [
+          "Intuitive visual canvas for mapping flows",
+          "Advanced data transformation functions",
+          "High volume efficiency and execution limits",
+          "Real-time interactive debugging"
+        ]
+      },
+      "keywords": [
+        "أتمتة بصرية",
+        "integromat",
+        "مسارات عمل",
+        "api",
+        "visual automation"
+      ],
+      "tags": [
+        "visual-automation",
+        "integromat",
+        "api-routing",
+        "complex-flows"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2016-01-01T00:00:00Z",
+      "updatedAt": "2025-01-15T00:00:00Z",
+      "popularityScore": 92
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "slug": "loom",
+      "nameAr": "لوم",
+      "nameEn": "Loom",
+      "descriptionAr": "أداة تسجيل الشاشة ومشاركة رسائل الفيديو السريعة لفرق العمل للتواصل دون الحاجة لاجتماعات.",
+      "descriptionEn": "Async video messaging tool to record quick screen and camera updates, reducing unnecessary meetings.",
+      "longDescriptionAr": "تتيح لك Loom تسجيل شاشتك مع كاميرا الوجه ومشاركة الرابط الفوري مع فريقك أو عملائك، مع تلخيص ذكي للفيديو واستخراج بنود العمل تلقائياً.",
+      "longDescriptionEn": "Loom makes asynchronous workplace communication effortless. Record your screen, webcam, and microphone, then share instant video links equipped with AI-generated titles and action steps.",
+      "category": "productivity",
+      "subcategory": "Screen Recording & Async Video",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.loom.com",
+      "icon": "Video",
+      "brandColor": "#625DF5",
+      "features": {
+        "ar": [
+          "تسجيل فوري للشاشة والكاميرا ومشاركة الرابط",
+          "توليد عناوين وملخصات ذكية للفيديو تلقائياً",
+          "إزالة الوقفات وكلمات التردد من التسجيل",
+          "تفاعل المشاهدين بالتعليقات والرموز التعبيرية"
+        ],
+        "en": [
+          "Instant screen and webcam video recording",
+          "AI-generated summaries, titles, and chapters",
+          "Automatic filler word and silence trimmer",
+          "Viewer emoji reactions and time-stamped comments"
+        ]
+      },
+      "keywords": [
+        "تسجيل شاشة",
+        "فيديو سريع",
+        "تواصل غير متزامن",
+        "اجتماعات سريعة",
+        "screen recorder"
+      ],
+      "tags": [
+        "screen-recording",
+        "async-communication",
+        "video-messaging",
+        "collaboration"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2016-06-01T00:00:00Z",
+      "updatedAt": "2025-01-20T00:00:00Z",
+      "popularityScore": 93
+    },
+    {
+      "id": "semrush",
+      "name": "Semrush",
+      "slug": "semrush",
+      "nameAr": "سي إم راش",
+      "nameEn": "Semrush",
+      "descriptionAr": "المنصة العالمية الرائدة في تحليل الكلمات المفتاحية ومراقبة المنافسين وتحسين محركات البحث (SEO).",
+      "descriptionEn": "Comprehensive online marketing and SEO platform for keyword research, competitor analysis, and site auditing.",
+      "longDescriptionAr": "توفر Semrush أدوات شاملة لخبراء التسويق الرقمي تشمل فحص الروابط الخلفية، واكتشاف الكلمات المفتاحية المربحة، وتحليل حركة زيارات المنافسين، ومراجعة المشكلات الفنية للمواقع.",
+      "longDescriptionEn": "Semrush delivers deep visibility into search marketing metrics. Audit technical SEO health, uncover organic search opportunities, monitor backlinks, and track PPC competitor campaigns.",
+      "category": "seo-marketing",
+      "subcategory": "SEO & Keyword Intelligence",
+      "pricing": "Paid",
+      "officialUrl": "https://www.semrush.com",
+      "icon": "Search",
+      "brandColor": "#FF642D",
+      "features": {
+        "ar": [
+          "قاعدة بيانات ضخمة تحتوي مليارات الكلمات المفتاحية",
+          "تحليل استراتيجيات ومصادر زيارات المنافسين",
+          "فحص شامل للمشاكل التقنية في الموقع (Site Audit)",
+          "تتبع ترتيب موقعك في محركات البحث يومياً"
+        ],
+        "en": [
+          "Billion-keyword international search index",
+          "Competitor traffic and PPC keyword intelligence",
+          "Deep technical SEO site health auditing",
+          "Daily rank tracking and SERP monitoring"
+        ]
+      },
+      "keywords": [
+        "سيو",
+        "كلمات مفتاحية",
+        "منافسين",
+        "روابط خلفية",
+        "تسويق رقمي",
+        "semrush"
+      ],
+      "tags": [
+        "seo",
+        "keyword-research",
+        "competitor-analysis",
+        "backlinks"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2008-08-01T00:00:00Z",
+      "updatedAt": "2025-02-01T00:00:00Z",
+      "popularityScore": 96
+    },
+    {
+      "id": "surfer-seo",
+      "name": "Surfer SEO",
+      "slug": "surfer-seo",
+      "nameAr": "سيرفر سيو",
+      "nameEn": "Surfer SEO",
+      "descriptionAr": "أداة تحسين المحتوى الرقمي المعتمدة على بيانات الصفحات الأولى في Google لتصدر نتائج البحث.",
+      "descriptionEn": "Data-driven content intelligence tool that guides on-page SEO optimization based on top SERP rankings.",
+      "longDescriptionAr": "تحلل Surfer SEO أكثر من 500 إشارة في محرك البحث لترشدك أثناء كتابة المقالات إلى الكلمات المفتاحية الضرورية، وهيكل العناوين، وعدد الفقرات المثالي لتصدر نتائج Google الأولى.",
+      "longDescriptionEn": "Surfer analyzes top-ranking Google pages to deliver precise guidelines on keyword frequency, heading structures, and article length, guaranteeing optimized on-page SEO.",
+      "category": "seo-marketing",
+      "subcategory": "On-Page SEO Optimization",
+      "pricing": "Paid",
+      "officialUrl": "https://surferseo.com",
+      "icon": "TrendingUp",
+      "brandColor": "#FF5C35",
+      "features": {
+        "ar": [
+          "مقياس جودة المحتوى الفوري (Content Score)",
+          "اقتراحات الكلمات والعبارات ذات الصلة أثناء الكتابة",
+          "أداة تدقيق الصفحات الحالية وتحديثها",
+          "مولد مقالات ذكي متوافق مع معايير SEO"
+        ],
+        "en": [
+          "Live real-time Content Score benchmark",
+          "Granular semantic keyword suggestions",
+          "Existing URL on-page SEO auditor",
+          "AI article writer optimized for ranking"
+        ]
+      },
+      "keywords": [
+        "سيو المحتوى",
+        "تصدر نتائج البحث",
+        "on-page seo",
+        "تحسين المقالات",
+        "serp"
+      ],
+      "tags": [
+        "on-page-seo",
+        "content-score",
+        "serp-analysis",
+        "copy-optimization"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2017-10-01T00:00:00Z",
+      "updatedAt": "2025-01-15T00:00:00Z",
+      "popularityScore": 89
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "slug": "framer",
+      "nameAr": "فريمير",
+      "nameEn": "Framer",
+      "descriptionAr": "أداة تصميم وبناء مواقع الويب الحديثة التفاعلية ونشرها مباشرة بسرعة وأناقة فائقة.",
+      "descriptionEn": "Interactive website design and publishing tool blending design freedom with lightning-fast hosting.",
+      "longDescriptionAr": "تتيح Framer للمصممين والشركات الناشئة بناء مواقع ويب مذهلة بمؤثرات حركية فائقة النعومة وتصميم متجاوب بالكامل ونشرها فوراً دون الحاجة لكتابة كود برمجي يدوي.",
+      "longDescriptionEn": "Framer bridges design tools and web development, allowing teams to design on a freeform canvas, animate visually, and launch responsive, SEO-ready websites in minutes.",
+      "category": "seo-marketing",
+      "subcategory": "Interactive Web Builder",
+      "pricing": "Freemium",
+      "officialUrl": "https://www.framer.com",
+      "icon": "Monitor",
+      "brandColor": "#0055FF",
+      "features": {
+        "ar": [
+          "تصميم حر يشبه Figma مع نشر فوري لموقع حقيقي",
+          "مؤثرات حركية وانتقالات فائقة السلاسة",
+          "أداء وسرعة تحميل استثنائية محسنة لمحركات البحث",
+          "نظام إدارة محتوى (CMS) مدمج للمدونات والمشاريع"
+        ],
+        "en": [
+          "Figma-like design canvas with instant web publishing",
+          "Fluid micro-interactions and scroll animations",
+          "Blazing fast load speeds with built-in SEO",
+          "Integrated CMS for blogs and case studies"
+        ]
+      },
+      "keywords": [
+        "تصميم مواقع",
+        "landing page",
+        "صفحات هبوط",
+        "أنيميشن",
+        "نو كود",
+        "framer"
+      ],
+      "tags": [
+        "landing-pages",
+        "web-design",
+        "interactive",
+        "animations"
+      ],
+      "featured": true,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2014-01-01T00:00:00Z",
+      "updatedAt": "2025-02-10T00:00:00Z",
+      "popularityScore": 95
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "slug": "gamma",
+      "nameAr": "جاما",
+      "nameEn": "Gamma",
+      "descriptionAr": "أداة ذكاء اصطناعي ثورية لتصميم العروض التقديمية والمستندات وصفحات الويب من وصف نصي قصير.",
+      "descriptionEn": "AI-powered medium for generating engaging presentations, interactive decks, and modern web docs.",
+      "longDescriptionAr": "تغنيك Gamma عن برامج العروض التقليدية مثل PowerPoint؛ فبمجرد كتابة موضوعك، ينشئ الذكاء الاصطناعي عرضاً متكاملاً بالبطاقات والرسوم التفاعلية والألوان المتناسقة في ثوانٍ.",
+      "longDescriptionEn": "Gamma transforms presentation workflows. Input a prompt or upload an outline to generate polished presentation slides, docs, or web pages with responsive styling and embedded media.",
+      "category": "seo-marketing",
+      "subcategory": "AI Presentations & Pitch Decks",
+      "pricing": "Freemium",
+      "officialUrl": "https://gamma.app",
+      "icon": "Presentation",
+      "brandColor": "#9333EA",
+      "features": {
+        "ar": [
+          "توليد عروض تقديمية كاملة من مجرد فكرة أو ملف",
+          "تصميم بطاقات تفاعلية متجاوبة مع الهواتف والحواسيب",
+          "تضمين مقاطع فيديو ونماذج تفاعلية داخل الشرائح",
+          "تصدير بصيغ PDF وPowerPoint ومشاركة الروابط المباشرة"
+        ],
+        "en": [
+          "Generates full presentations from short prompts",
+          "Responsive interactive cards for all screen sizes",
+          "Embed videos, web widgets, and live forms",
+          "Export to PDF and PPTX or share via URL"
+        ]
+      },
+      "keywords": [
+        "عروض تقديمية",
+        "بوربوينت",
+        "سلايدات",
+        "ذكاء اصطناعي للعروض",
+        "presentation"
+      ],
+      "tags": [
+        "presentations",
+        "decks",
+        "ai-slides",
+        "documents"
+      ],
+      "featured": true,
+      "isNew": true,
+      "isActive": true,
+      "createdAt": "2022-11-01T00:00:00Z",
+      "updatedAt": "2025-02-15T00:00:00Z",
+      "popularityScore": 94
+    },
+    {
+      "id": "whimsical",
+      "name": "Whimsical",
+      "slug": "whimsical",
+      "nameAr": "ويمزيكال",
+      "nameEn": "Whimsical",
+      "descriptionAr": "لوحة عمل بصرية ذكية لتصميم الخرائط الذهنية والمخططات الانسيابية ونماذج واجهات المستخدم.",
+      "descriptionEn": "Visual workspace for rapid mind mapping, flowcharts, wireframing, and sticky note brainstorming.",
+      "longDescriptionAr": "تتميز Whimsical بالسرعة الفائقة والسهولة في رسم المخططات الانسيابية وتنظيم الأفكار المعقدة في خرائط ذهنية جميلة بمساعدة الذكاء الاصطناعي لاقتراح الخطوات وتوليد الفروع.",
+      "longDescriptionEn": "Whimsical provides an agile canvas for product teams. Generate flowcharts, brainstorm with AI mind maps, build quick wireframes, and collaborate synchronously.",
+      "category": "other",
+      "subcategory": "Mind Mapping & Flowcharts",
+      "pricing": "Freemium",
+      "officialUrl": "https://whimsical.com",
+      "icon": "GitCommit",
+      "brandColor": "#EC4899",
+      "features": {
+        "ar": [
+          "توليد وتوسيع الخرائط الذهنية بالذكاء الاصطناعي",
+          "رسم مخططات انسيابية (Flowcharts) بسرعة فائقة",
+          "نماذج أولية للواجهات (Wireframes) سريعة وأنيقة",
+          "تعاون وملاحظات في الوقت الحقيقي بين أفراد الفريق"
+        ],
+        "en": [
+          "AI-assisted mind map branch generation",
+          "Lightning-fast flowchart diagramming",
+          "Clean wireframing kit for UX ideation",
+          "Real-time multi-user cursor collaboration"
+        ]
+      },
+      "keywords": [
+        "خرائط ذهنية",
+        "مخططات",
+        "flowchart",
+        "واجهات سريعة",
+        "عصف ذهني"
+      ],
+      "tags": [
+        "flowcharts",
+        "mind-maps",
+        "wireframing",
+        "diagrams"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2017-05-01T00:00:00Z",
+      "updatedAt": "2025-01-10T00:00:00Z",
+      "popularityScore": 89
+    },
+    {
+      "id": "cleanup-pictures",
+      "name": "Cleanup.pictures",
+      "slug": "cleanup-pictures",
+      "nameAr": "كلين أب بيكتشرز",
+      "nameEn": "Cleanup.pictures",
+      "descriptionAr": "أداة مجانية وسريعة للغاية لإزالة الأشخاص والأشياء غير المرغوبة والعيوب من الصور بدقة.",
+      "descriptionEn": "Fast, focused browser utility to erase unwanted objects, people, and text from photos seamlessly.",
+      "longDescriptionAr": "تتيح لك Cleanup.pictures تلوين أي جسم غير مرغوب فيه داخل صورتك بفرشاة بسيطة ليقوم الذكاء الاصطناعي بإزالته فوراً وإعادة بناء الخلفية بسلاسة تامة دون ترك أي أثر.",
+      "longDescriptionEn": "Cleanup.pictures uses inpainting algorithms to remove photobombers, watermarks, text, or blemishes from any picture in a matter of seconds directly in your browser.",
+      "category": "other",
+      "subcategory": "AI Inpainting & Object Removal",
+      "pricing": "Free",
+      "officialUrl": "https://cleanup.pictures",
+      "icon": "Sparkles",
+      "brandColor": "#F59E0B",
+      "features": {
+        "ar": [
+          "إزالة الأشخاص والأشياء غير المرغوبة بفرشاة واحدة",
+          "إعادة بناء طبيعية ومطابقة للخلفية",
+          "تعمل مباشرة في المتصفح دون الحاجة لتسجيل",
+          "أداة مجانية وسريعة جداً لمعالجة الصور"
+        ],
+        "en": [
+          "One-stroke object and photobomber erasure",
+          "Seamless background texture synthesis",
+          "Instant browser operation with no signup",
+          "Fast, free, and lightweight image utility"
+        ]
+      },
+      "keywords": [
+        "حذف عناصر",
+        "تنظيف الصور",
+        "إزالة الكتابة",
+        "معالجة صور مجانية",
+        "inpainting"
+      ],
+      "tags": [
+        "inpainting",
+        "object-eraser",
+        "free",
+        "watermark-removal"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2021-09-01T00:00:00Z",
+      "updatedAt": "2024-12-01T00:00:00Z",
+      "popularityScore": 90
+    },
+    {
+      "id": "tome",
+      "name": "Tome",
+      "slug": "tome",
+      "nameAr": "توم",
+      "nameEn": "Tome",
+      "descriptionAr": "منصة سرد قصصي بصري تفاعلية تحول الأفكار إلى عروض ومقالات تفاعلية مدعومة بالذكاء الاصطناعي.",
+      "descriptionEn": "AI storytelling platform generating dynamic, narrative multimedia decks and interactive pitch pages.",
+      "longDescriptionAr": "تساعدك Tome على صياغة قصص مقنعة لأفكارك ومشاريعك الناشئة عبر لوحات تفاعلية تجمع بين النصوص التعبيرية والصور التوليدية والمحتوى المضمن من الويب.",
+      "longDescriptionEn": "Tome transforms static decks into dynamic multimedia narratives. Leverage generative AI to draft storyboards, generate matching visual art, and embed live web prototypes.",
+      "category": "other",
+      "subcategory": "Interactive Visual Storytelling",
+      "pricing": "Freemium",
+      "officialUrl": "https://tome.app",
+      "icon": "BookOpen",
+      "brandColor": "#8B5CF6",
+      "features": {
+        "ar": [
+          "صياغة عروض المشاريع والأفكار بأسلوب سردي مشوق",
+          "توليد صور فنية مرافقة لكل شريحة",
+          "تضمين نماذج ثلاثية الأبعاد وصفحات ويب حية",
+          "تصميم متجاوب بالكامل يناسب شاشات الهواتف"
+        ],
+        "en": [
+          "Narrative pitch deck and storytelling formats",
+          "Contextual AI visual art generation per card",
+          "Live embeds for 3D models and interactive tools",
+          "Fluid mobile-responsive canvas"
+        ]
+      },
+      "keywords": [
+        "سرد قصصي",
+        "عروض مشاريع",
+        "pitch deck",
+        "لوحات تفاعلية",
+        "storytelling"
+      ],
+      "tags": [
+        "pitch-decks",
+        "storytelling",
+        "narrative",
+        "interactive-canvas"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2022-03-01T00:00:00Z",
+      "updatedAt": "2025-01-10T00:00:00Z",
+      "popularityScore": 88
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "slug": "synthesia",
+      "nameAr": "سينثيزيا",
+      "nameEn": "Synthesia",
+      "descriptionAr": "المنصة العالمية الرائدة في إنتاج فيديوهات تعليمية وترويجية بأفاتار بشري واقعي بأكثر من 140 لغة.",
+      "descriptionEn": "Enterprise AI video generation platform creating presenter-led training videos with 230+ hyper-realistic avatars.",
+      "longDescriptionAr": "تتيح Synthesia للمؤسسات والشركات تحويل النصوص المكتوبة إلى فيديوهات تدريبية واحترافية يقدمها متحدثون واقعيون بأكثر من 140 لغة، دون الحاجة إلى كاميرات أو معدات تصوير.",
+      "longDescriptionEn": "Synthesia is the enterprise benchmark for corporate training videos. Produce professional video presentations from scripts using 230+ diverse avatars and expressive voice acting.",
+      "category": "other",
+      "subcategory": "Corporate Training AI Video",
+      "pricing": "Paid",
+      "officialUrl": "https://www.synthesia.io",
+      "icon": "Tv",
+      "brandColor": "#0284C7",
+      "features": {
+        "ar": [
+          "أكثر من 230 شخصية رمزية (Avatar) بشرية واقعية",
+          "دعم أكثر من 140 لغة ولهجة طبيعية",
+          "تحويل المستندات والشرائح إلى فيديو تدريبي",
+          "استنساخ صوت ومظهر مخصص للمؤسسات"
+        ],
+        "en": [
+          "230+ hyper-realistic studio avatars",
+          "140+ international languages and accents",
+          "Convert documents and slides to video lessons",
+          "Custom enterprise brand avatar creation"
+        ]
+      },
+      "keywords": [
+        "فيديوهات تدريب",
+        "أفاتار شركات",
+        "متحدث رسمي",
+        "تدريب الموظفين",
+        "corporate video"
+      ],
+      "tags": [
+        "corporate-training",
+        "enterprise-video",
+        "avatar-presenters",
+        "multilingual"
+      ],
+      "featured": false,
+      "isNew": false,
+      "isActive": true,
+      "createdAt": "2017-11-01T00:00:00Z",
+      "updatedAt": "2025-01-25T00:00:00Z",
+      "popularityScore": 92
+    }
+  ],
+  "categories": [
+    {
+      "id": "ai-chat",
+      "nameAr": "الذكاء الاصطناعي والمحادثة",
+      "nameEn": "AI & Chat",
+      "slug": "ai-chat",
+      "descriptionAr": "نماذج لغوية متقدمة ومساعدين أذكياء للمحادثة والبحث وتحليل المعلومات",
+      "descriptionEn": "Advanced language models and conversational AI assistants for reasoning and research",
+      "icon": "Bot",
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "images-design",
+      "nameAr": "الصور والتصميم",
+      "nameEn": "Images & Design",
+      "slug": "images-design",
+      "descriptionAr": "أدوات توليد وتعديل الصور والرسوميات وإزالة الخلفيات وتصميم الجرافيك",
+      "descriptionEn": "AI image generation, vector editing, photo enhancement, and graphic design",
+      "icon": "Image",
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "video",
+      "nameAr": "الفيديو والأنيميشن",
+      "nameEn": "Video",
+      "slug": "video",
+      "descriptionAr": "إنشاء وتعديل الفيديوهات السينمائية وصناعة المقاطع والشخصيات الرمزية",
+      "descriptionEn": "Video generation, AI avatars, automated editing, and motion design",
+      "icon": "Video",
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "audio-music",
+      "nameAr": "الصوت والموسيقى",
+      "nameEn": "Audio & Music",
+      "slug": "audio-music",
+      "descriptionAr": "توليد الأصوات الواقعية والموسيقى وتفريغ التسجيلات وتلخيص الاجتماعات",
+      "descriptionEn": "Voice generation, music composition, speech-to-text, and meeting notes",
+      "icon": "Music",
+      "order": 4,
+      "isActive": true
+    },
+    {
+      "id": "writing-content",
+      "nameAr": "الكتابة والمحتوى",
+      "nameEn": "Writing & Content",
+      "slug": "writing-content",
+      "descriptionAr": "كتابة المقالات وإعادة الصياغة والتدقيق اللغوي والترجمة الاحترافية",
+      "descriptionEn": "Copywriting, text paraphrasing, grammar checking, and multilingual translation",
+      "icon": "PenTool",
+      "order": 5,
+      "isActive": true
+    },
+    {
+      "id": "programming",
+      "nameAr": "البرمجة وبناء التطبيقات",
+      "nameEn": "Programming & App Building",
+      "slug": "programming",
+      "descriptionAr": "محررات ذكية ومساعدات برمجية لتطوير الأكواد وبناء التطبيقات بسرعة فائقة",
+      "descriptionEn": "AI-assisted code editors, web app builders, and development environments",
+      "icon": "Code2",
+      "order": 6,
+      "isActive": true
+    },
+    {
+      "id": "productivity",
+      "nameAr": "الإنتاجية والأتمتة",
+      "nameEn": "Productivity & Automation",
+      "slug": "productivity",
+      "descriptionAr": "تنظيم المهام وإدارة المعرفة وربط التطبيقات وأتمتة مسارات العمل اليومية",
+      "descriptionEn": "Knowledge workspaces, workflow automation, screen recording, and task management",
+      "icon": "Zap",
+      "order": 7,
+      "isActive": true
+    },
+    {
+      "id": "seo-marketing",
+      "nameAr": "SEO والتسويق",
+      "nameEn": "SEO & Marketing",
+      "slug": "seo-marketing",
+      "descriptionAr": "تحليل الكلمات المفتاحية وتحسين محركات البحث وبناء صفحات الهبوط والعروض",
+      "descriptionEn": "Search engine optimization, keyword research, website building, and presentations",
+      "icon": "TrendingUp",
+      "order": 8,
+      "isActive": true
+    },
+    {
+      "id": "other",
+      "nameAr": "أدوات أخرى مميزة",
+      "nameEn": "Other",
+      "slug": "other",
+      "descriptionAr": "أدوات تخطيط الخرائط الذهنية والعروض التقديمية ومعالجة الصور السريعة",
+      "descriptionEn": "Mind mapping, visual brainstorms, rapid object removal, and smart decks",
+      "icon": "Sparkles",
+      "order": 9,
+      "isActive": true
+    }
+  ]
+}

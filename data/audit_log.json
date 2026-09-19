@@ -1,0 +1,114 @@
+[
+  {
+    "id": "audit_1789827901189_upevn",
+    "timestamp": "2026-09-19T14:25:01.189Z",
+    "operation": "DELETE /api/agent/v1/tools/chatgpt",
+    "source": "agent",
+    "targetType": "tool",
+    "targetId": "chatgpt",
+    "success": false,
+    "message": "Accidental deletion prevention: request must include explicit confirmation { confirm: true }",
+    "ipHash": "12ca17b49af2"
+  },
+  {
+    "id": "audit_1789827901185_7wwht",
+    "timestamp": "2026-09-19T14:25:01.185Z",
+    "operation": "POST /api/agent/v1/unsupported_action",
+    "source": "agent",
+    "targetType": "system",
+    "success": false,
+    "message": "Operation \"POST /api/agent/v1/unsupported_action\" rejected: not on server allowlist",
+    "ipHash": "12ca17b49af2"
+  },
+  {
+    "id": "audit_1789827901179_t0zi3",
+    "timestamp": "2026-09-19T14:25:01.179Z",
+    "operation": "GET /api/agent/v1/meta",
+    "source": "agent",
+    "targetType": "system",
+    "success": true,
+    "message": "Inspected agent metadata and allowlist",
+    "ipHash": "12ca17b49af2"
+  },
+  {
+    "id": "audit_1789827901174_8h2nz",
+    "timestamp": "2026-09-19T14:25:01.174Z",
+    "operation": "GET /api/agent/v1/tools",
+    "source": "agent",
+    "targetType": "tool",
+    "success": true,
+    "message": "Fetched all 50 tools",
+    "ipHash": "12ca17b49af2"
+  },
+  {
+    "id": "audit_1789827901169_xtak4",
+    "timestamp": "2026-09-19T14:25:01.169Z",
+    "operation": "GET /api/agent/v1/tools",
+    "source": "agent",
+    "targetType": "system",
+    "success": false,
+    "message": "Unauthorized: invalid secret token provided",
+    "ipHash": "12ca17b49af2"
+  },
+  {
+    "id": "audit_1789827901148_ywn4w",
+    "timestamp": "2026-09-19T14:25:01.148Z",
+    "operation": "GET /api/agent/v1/tools",
+    "source": "agent",
+    "targetType": "system",
+    "success": false,
+    "message": "Unauthorized: missing agent credentials header",
+    "ipHash": "12ca17b49af2"
+  },
+  {
+    "id": "audit_1789827892313_qm5ji",
+    "timestamp": "2026-09-19T14:24:52.313Z",
+    "operation": "GET /api/agent/v1/tools",
+    "source": "agent",
+    "targetType": "system",
+    "success": false,
+    "message": "Authentication rejected: TOOLVERSE_AGENT_SECRET is not configured on server",
+    "ipHash": "12ca17b49af2"
+  },
+  {
+    "id": "audit_1789827892311_js07i",
+    "timestamp": "2026-09-19T14:24:52.311Z",
+    "operation": "GET /api/agent/v1/tools",
+    "source": "agent",
+    "targetType": "system",
+    "success": false,
+    "message": "Authentication rejected: TOOLVERSE_AGENT_SECRET is not configured on server",
+    "ipHash": "12ca17b49af2"
+  },
+  {
+    "id": "audit_1789827877392_0opyx",
+    "timestamp": "2026-09-19T14:24:37.392Z",
+    "operation": "POST /api/agent/v1/tools",
+    "source": "agent",
+    "targetType": "tool",
+    "targetId": "test-agent-tool",
+    "success": true,
+    "message": "Test audit log entry",
+    "ipHash": "test_ip_hash"
+  },
+  {
+    "id": "audit_1789827867379_iymdg",
+    "timestamp": "2026-09-19T14:24:27.379Z",
+    "operation": "GET /api/agent/v1/tools",
+    "source": "agent",
+    "targetType": "system",
+    "success": false,
+    "message": "Authentication rejected: TOOLVERSE_AGENT_SECRET is not configured on server",
+    "ipHash": "12ca17b49af2"
+  },
+  {
+    "id": "audit_1789827867377_skj6a",
+    "timestamp": "2026-09-19T14:24:27.377Z",
+    "operation": "GET /api/agent/v1/tools",
+    "source": "agent",
+    "targetType": "system",
+    "success": false,
+    "message": "Authentication rejected: TOOLVERSE_AGENT_SECRET is not configured on server",
+    "ipHash": "12ca17b49af2"
+  }
+]
